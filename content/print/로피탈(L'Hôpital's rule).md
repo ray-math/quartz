@@ -9,11 +9,13 @@ tags:
 >$$\lim_{x \rightarrow a}\frac{f(x)}{g(x)}=\lim_{x \rightarrow a}\frac{f'(x)}{g'(x)}$$
 
 #### 최고차항 비교
-$$\begin{align*}
+$$
+\begin{align*}
 &\lim_{x \rightarrow \infty} \frac{a_{n}x^{n} + a_{n-1}x^{n-1} + \cdots + a_{1}x + a_{0}}{b_{n}x^{n} + b_{n-1}x^{n-1} + \cdots + b_{1}x + b_{0}} = \lim_{x \rightarrow \infty} \frac{n!a_{n}}{n!b_{n}} = \frac{a_{n}}{b_{n}}\\
 &\lim_{x \rightarrow \infty} \frac{a_{n}x^{n} + a_{n-1}x^{n-1} + \cdots + a_{1}x + a_{0}}{b_{n-1}x^{n-1} + \cdots + b_{1}x + b_{0}} = \frac{n!a_{n} x+(n-1)!a_{n-1}}{(n-1)!b_{n-1}} = \infty\\
 &\lim_{x \rightarrow \infty} \frac{a_{n-1}x^{n-1} + \cdots + a_{1}x + a_{0}}{b_{n}x^{n} + b_{n-1}x^{n-1} + \cdots + b_{1}x + b_{0}} = \lim_{x \rightarrow \infty} \frac{(n-1)!a_{n}}{n!b_{n}x + (n-1)!b_{n}} = 0
-\end{align*}$$
+\end{align*}
+$$
 
 #### 최저차항 비교
 $$\lim_{x \rightarrow 0} \frac{a_{n}x^{n} + a_{n-1}x^{n-1} + \cdots + a_{1}x}{b_{n}x^{n} + b_{n-1}x^{n-1} + \cdots + b_{1}x} = \lim_{x \rightarrow 0} \frac{na_{n}x^{n-1} + (n-1)a_{n-1}x^{n-2} + \cdots + a_{1}}{nb_{n}x^{n-1} + (n-1)b_{n-1}x^{n-2} + \cdots + b_{1}} = \frac{a_{1}}{b_{1}}$$
