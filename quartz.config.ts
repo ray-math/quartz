@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import TikzPlugin from "./quartz/plugins/transformers/tikzjax"
 
 /**
  * Quartz 4.0 Configuration
@@ -72,12 +73,8 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      (content: string): string => {
-        return content.replace(/```tikz([\s\S]*?)```/g, (_, tikzCode) => {
-          return `<div class="tikzjax">\n\\begin{tikzpicture}\n${tikzCode.trim()}\n\\end{tikzpicture}\n</div>`;
-        });
-      },
-      Plugin.Latex({renderEngine: "katex"}),],
+      Plugin.Latex({renderEngine: "katex"}),
+    ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
       Plugin.AliasRedirects(),
