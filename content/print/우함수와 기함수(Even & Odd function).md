@@ -1,0 +1,83 @@
+---
+tags:
+  - 함수
+  - 기
+  - 우
+share_link: https://share.note.sx/zftudq1c#BJfQ1ONFw/YxwilTj2rUo0ofEbpVE8f7gNMsBHdy+vY
+share_updated: 2025-01-01T21:42:54+09:00
+---
+함수 $f$가 정의역의 임의의 원소에 대하여
+ $x^0, ~x^2, ~x^4, \cdots$와 같이 **짝수 차수**만을 갖는 함수처럼 $f(-x)=f(x)$이면 **우함수(짝함수, even function)** 라 부르며, **$y$축 대칭**인 성질을 갖는다.
+ $x^1, ~x^3, ~x^5, \cdots$와 같이 **홀수 차수**만을 갖는 함수처럼 $f(-x)=-f(x)$이면 **기함수(홀함수, odd function)** 라 부르며, **원점 대칭**인 성질을 갖는다.
+>[!note]
+>- 우함수 $f(-x)=f(x)$ 
+>- 기함수 $f(-x)=-f(x)$
+
+위 성질에 의해 기함수는 자명하게 원점을 지난다. (why?)
+#### 우함수와 기함수의 적분
+함수 $f(x)$가 우함수면, $y$축 대칭이므로 $\int_{-a}^{a} f(x) \, dx = 2 \int_{0}^{a} f(x) \, dx$이다.
+함수 $f(x)$가 기함수면, 원축 대칭이므로 $\int_{-a}^{a} f(x) \, dx = 0$이다.
+
+```tikz
+\begin{document}
+\begin{tikzpicture}[scale=2.5]
+    % Axes
+    \draw[-latex] (-1.5,0) -- (1.5,0) node[right] {$x$};
+    \draw[-latex] (0,-1.2) -- (0,1.2) node[above] {$y$};
+
+    % x^2 plot with label
+    \draw[domain=-1:1, smooth, variable=\x, blue] plot ({\x}, {\x*\x});
+    \fill[color=blue, domain=-1:1, variable=\x, opacity=0.5]
+        plot ({\x}, {\x*\x}) -- (1,0) -- (-1,0) -- cycle;
+    \node at (0, -1.4) {$f(-x)=f(x)$};
+
+    % x^3 plot with label, shifted to the right
+    \begin{scope}[shift={(4,0)}]
+        \draw[-latex] (-1.5,0) -- (1.5,0) node[right] {$x$};
+        \draw[-latex] (0,-1.2) -- (0,1.2) node[above] {$y$};
+
+        \draw[domain=-1:1, smooth, variable=\x, red] plot ({\x}, {\x*\x*\x});
+        \fill[color=red, domain=-1:1, variable=\x, opacity=0.5]
+            plot ({\x}, {\x*\x*\x}) -- (1,0) -- (-1,0) -- cycle;
+        \node at (0, -1.4) {$f(-x)=-f(x)$};
+    \end{scope}
+\end{tikzpicture}
+\end{document}
+```
+
+그래프의 성질에 의해 우함수는 $y$축 대칭이므로$\int _{a} ^{b} {f(x)dx= \int _{-b} ^{-a} {f(x)dx}}$이며, 기함수는 원점대칭이므로 $\int _{a} ^{b} {f(x)dx= -\int _{-b} ^{-a} {f(x)dx}}$이다.(why?)
+
+#### 모든 함수는 우함수와 기함수의 합으로 나타낼 수 있는가?
+임의의 함수 $f(x)$에 대하여 $\frac{f(x) + f(-x)}{2}$는 우함수이며, $\frac{f(x) - f(-x)}{2}$는 기함수이다.(why?) 이 때, $f(x) = \frac{f(x) + f(-x)}{2} + \frac{f(x) - f(-x)}{2}$이므로, 임의의 함수 $f(x)$는 우함수와 기함수의 합으로 유일하게 표현할 수 있다.
+>[!note]
+>$$f(x) = \frac{f(x) + f(-x)}{2} + \frac{f(x) - f(-x)}{2}$$
+
+#### 예제
+
+1. $f(x)$가 우함수 $g(x)$가 기함수일 때, 다음 함수가 우함수인지 기함수인지 판별하라.
+$f(x) +f(x)$
+$f(x)+g(x)$
+$g(x)+g(x)$
+$f(x) \times f(x)$
+$f(x) \times g(x)$
+$g(x) \times g(x)$
+$f(f(x))$
+$f(g(x))$
+$g(f(x))$
+$g(g(x))$
+
+2. 다음 명제가 참이면 증명하고, 거짓이면 반례를 들어라.
+우함수를 미분하면 기함수이다.
+기함수를 미분하면 우함수이다.
+우함수를 적분하면 기함수이다.
+기함수를 적분하면 우함수이다.
+우함수이며 동시에 기함수인 함수는 존재하지 않는다.
+기함수가 일대일 대응이면 역함수는 기함수이다.
+모든 함수는 우함수와 기함수의 합으로 유일하게 반드시 표현할 수 있다.
+
+3. $\int_{-2}^{2}(x+|x|+2)dx$의 값은?
+4. $\int_{-1}^{1} 2^x+3^x+2^{-x}-3^{-x}dx$의 값은?
+5. 다항함수 $f(x)$가 모든 실수 $x$에 대하여 $f(-x)=f(x)$를 만족시키고, $\int_{0}^{1}f(x) dx=2$일 때, $\int_{-1}^{1} (x^3-3x+2)f(x) dx$의 값은?
+6. 두 다항함수 $f(x), ~g(x)$가 모든 실수 $x$에 대하여 $f(-x)=f(x), ~g(-x)=g(x)$를 만족시킨다. $h(x)=f(x)g(x)$에 대하여 $\int_{-2}^{2}(x+4)h'(x)dx=8$일 때, $h(2)$의 값은?
+7. 다항함수 $f(x)$가 $\int_{-1}^{3} \left\{ x f(x) + x f(-x) \right\} \, dx = 6, ~\int_{-3}^{-1} \left\{ x f(x) - x f(-x) \right\} \, dx = 4$일 때, $\int_{1}^{3} x f(-x) \, dx$의 값은?
+8. 다항함수 $f(x)$에 대하여 $\int_{-1}^{2} x f\left(x^2\right) \, dx = 1,~\int_{-3}^{1} x f\left(x^2\right) \, dx = -4$일 때, $\int_{-2}^{3} x f\left(x^2\right) \, dx$의 값은?
