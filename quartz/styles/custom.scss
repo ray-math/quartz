@@ -40,13 +40,17 @@ mjx-container[display="true"] {
 }
 mjx-container[display="false"] {
     display: inline;
-    text-align: initial;
 }
 
 // Center align tables
-table {
+.table-container {
+    display: table;
     margin: 0 auto;
 }
+
+table {
+    width: 100%;
+  }
 
 table th,
 table td {
