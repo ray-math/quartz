@@ -28,14 +28,16 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 // 수식
 mjx-container[display="true"] {
     display: block;
     text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 mjx-container[display="false"] {
     display: inline;
@@ -46,4 +48,13 @@ mjx-container[display="false"] {
 // Hide the footer
 footer {
     display: none;
+}
+
+hr {
+    visibility: hidden;
+}
+  
+.footnotes {
+    margin-top: 0rem;
+    border-top: 0px solid var(--lightgray);
 }

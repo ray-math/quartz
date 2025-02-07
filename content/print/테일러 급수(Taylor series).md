@@ -1,16 +1,18 @@
----
-tags:
-  - 급수
----
 ## 테일러 급수
 함수 $f$가 $a \in \mathbb{R}$에서 여러번 미분 가능할 때, 다항함수로 근사한 식을 테일러급수라고 부른다. 
 $$
-T_f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n = f(a) + f'(a)(x-a) + \frac{1}{2!} f''(a)(x-a)^2 + \frac{1}{3!} f'''(a)(x-a)^3 +\cdots\\
+\begin{align*}
+T_f(x) &= \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x-a)^n \\
+&= f(a) + f'(a)(x-a) + \frac{1}{2!} f''(a)(x-a)^2 + \frac{1}{3!} f'''(a)(x-a)^3 +\cdots\\
+\end{align*}
 $$
   특히, $a=0$일 때의 테일러급수를 매클로린급수라고 부른다.
-  $$
-  M_f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n!} x^n = f(0) + f'(0)x + \frac{1}{2} f''(0)x^2 + \frac{1}{3!} f'''(0)x^3 + \cdots
-  $$
+$$
+\begin{align*}
+M_f(x) &= \sum_{n=0}^{\infty} \frac{f^{(n)}(0)}{n!} x^n \\
+&= f(0) + f'(0)x + \frac{1}{2} f''(0)x^2 + \frac{1}{3!} f'''(0)x^3 + \cdots
+\end{align*}
+$$
 
 ## 여러 가지 함수의 매클로린 급수
 $$
