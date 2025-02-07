@@ -25,19 +25,6 @@ $$
 \end{align*}
 $$
 
-```tikz
-\usepackage{tikz}
-\begin{document}
-\begin{tikzpicture}[scale=1] 
-% 줄 간격을 조절하기 위해 -\n*0.5를 사용합니다. 
-\foreach \n in {0,...,7}{ 
-	\foreach \k in {0,...,\n} {
-		\node at (\k-\n/2,-\n*0.7) {${{}}_{\n}C_{\k}$}; 
-		}
-	}
-\end{tikzpicture}
-\end{document}
-```
 
 #### 예제 1
 1. ${}_{5} C _{0} + _{5} C _{1} + _{5} C _{2} + _{5} C _{3} + _{5} C _{4} + _{5} C _{5}=$
