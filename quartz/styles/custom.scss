@@ -1,3 +1,37 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// center all block MathJax equations
+mjx-container[display="true"] {
+    display: block;
+    text-align: center;
+}
+
+// ensure inline MathJax equations are not centered
+mjx-container[display="false"] {
+    display: inline;
+    text-align: initial;
+}
+
+// center all images by default
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-size: 0.95rem;
+}
+
+h1 {
+    color: #005493;
+  }
+
+h2, h3, h4 {
+    color: #005493;
+    border-bottom: 1.5px solid #eaecef;
+    padding-top: 0.5em;
+    padding-bottom: 0.3em;
+  }
