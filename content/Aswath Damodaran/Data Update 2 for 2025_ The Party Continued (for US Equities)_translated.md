@@ -1,10 +1,5 @@
 ---
 title: "Data Update 2 for 2025: The Party Continued (for US Equities)"
-source: "https://aswathdamodaran.blogspot.com/2025/01/data-update-2-for-2025-party-continued.html"
-author:
-published:
-created: 2025-02-03
-description: "A blog about markets, finance and all things money related."
 ---
 In [my last post](https://aswathdamodaran.blogspot.com/2025/01/data-update-1-for-2025-draw-and-danger.html), 저는 미국이 최근 몇 년 동안 글로벌 주식에서의 지배력을 확장하며 시장 자본금의 점유율을 2023년 초 42%에서 2024년 초 44%, 2025년 초 49%로 증가시켰다는 점을 언급했습니다. 이러한 상승은 2024년 동안 미국 주식 가치의 급증에 의해 촉발되었으며, S&P 500은 2023년에 26% 이상의 수익률을 기록한 것을 감안할 때, 2024년에 거의 25%의 수익률을 제공한 것은 더욱 인상적입니다. 이번 포스트에서는 미국 주식에 집중하여 2024년 동안 월별 수익률을 살펴보고, 지난 2년간의 성과를 역사적 맥락에서 분석하겠습니다. 마지막으로 2025년 초 시장의 위치를 판단하기 위해 PE 비율, 수익률, 그리고 지수의 평가로 이어지는 과정을 다루겠습니다.
 

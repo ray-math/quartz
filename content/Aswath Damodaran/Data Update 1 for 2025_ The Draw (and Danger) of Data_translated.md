@@ -1,10 +1,5 @@
 ---
 title: "Data Update 1 for 2025: The Draw (and Danger) of Data"
-source: "https://aswathdamodaran.blogspot.com/2025/01/data-update-1-for-2025-draw-and-danger.html"
-author:
-published:
-created: 2025-02-03
-description: "A blog about markets, finance and all things money related."
 ---
 ## 데이터의 매력(과 위험성)
 

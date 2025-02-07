@@ -1,10 +1,5 @@
 ---
 title: "Data Update 4 for 2025: Interest Rates, Inflation and Central Banks!"
-source: "https://aswathdamodaran.blogspot.com/2025/01/data-update-4-for-2025-interest-rates.html"
-author:
-published:
-created: 2025-02-03
-description: "A blog about markets, finance and all things money related."
 ---
 미국의 금리에 대한 2024년은 흥미로운 해였습니다. 이 해에는 중앙은행이 시장 금리의 궤적을 변경할 수 있는 한계에 대한 더 많은 증거가 나타났습니다. 우리는 연준의 금리 인하 기대에 의해 금리가 하락할 것이라는 합의된 지혜로 2024년을 시작했습니다. 연준은 2024년 동안 세 번의 금리 인하를 단행하며 약속을 지켰지만, 채권 시장은 예상과 달리 *시장 금리는 오히려 상승했습니다*. 이 글에서는 2024년 동안 만기별로 국채 금리의 변동과 그로 인한 수익률 곡선의 변화를 살펴보겠습니다. 이어서 2024년 동안 채권 시장에서 위험 가격이 어떻게 변화했는지를 측정하기 위해 신용 등급 스펙트럼 전반에 걸친 기업 채권 금리의 변화를 살펴보겠습니다.
 

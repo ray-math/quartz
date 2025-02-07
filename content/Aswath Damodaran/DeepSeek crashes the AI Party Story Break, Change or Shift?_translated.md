@@ -1,10 +1,5 @@
 ---
 title: "DeepSeek crashes the AI Party: Story Break, Change or Shift?"
-source: "https://aswathdamodaran.blogspot.com/2025/01/deepseek-crashes-ai-party-story-break.html"
-author:
-published:
-created: 2025-02-02
-description: "A blog about markets, finance and all things money related."
 ---
 저는 이 글을 시작하면서 AI의 구조와 메커니즘에 대한 제 지식이 평범하다는 고백으로 시작하겠습니다. 이 글에서 제가 잘못 이해하는 부분이 있을 수 있습니다. 그럼에도 불구하고, DeepSeek의 갑작스러운 AI 대화 참여는 AI 내러티브를 변화시킬 잠재력을 가지고 있으며, 그 과정에서 지난 2년간 AI 열풍의 혜택을 누려온 많은 기업들의 이야기에도 변화를 가져올 수 있습니다. 저는 처음으로 [posted about AI in the context of valuing Nvidia](https://aswathdamodaran.blogspot.com/2025/01/)를 2023년 6월에 게시했으며, 그 당시 AI가 실제로 가능할지에 대한 불확실성이 있었습니다. 1년이 조금 넘은 2024년 9월, 대부분의 투자자들에게 AI에 대한 질문은 긍정적으로 답변된 것처럼 보였고, [I posted again after Nvidia had a disappointing earnings report](https://aswathdamodaran.blogspot.com/2025/01/)에서는 기대치의 건강한 축소를 반영한다고 주장했습니다. AI가 일자리와 경력을 파괴할 것이라는 이야기가 증가함에 따라, 저는 또한 [piece on the threat that AI poses for all of us](https://aswathdamodaran.blogspot.com/2025/01/)를 게시했으며, 이는 우리의 일을 저비용 또는 무비용으로 수행할 수 있는 AI의 능력과 제가 제 봇을 제어하기 위해 사용할 수 있다고 생각한 한계에 대한 것이었습니다. 시장을 추적해온 분들에게, AI 시장 부문은 9월 이후로 자리를 지켜왔지만, 지난 주말 이전에도 투자자들이 AI의 보상이 얼마나 클지, 그리고 그 보상을 얻기 위해 얼마나 기다려야 할지에 대해 현실적으로 인식하고 있다는 신호가 있었습니다.
 
