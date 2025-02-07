@@ -32,7 +32,6 @@ img {
     margin-bottom: 1.5em;
 }
 
-// 수식
 mjx-container[display="true"] {
     display: block;
     text-align: center;
@@ -44,6 +43,24 @@ mjx-container[display="false"] {
     text-align: initial;
 }
 
+// Center align tables
+table {
+    margin: 0 auto;
+}
+
+table th,
+table td {
+    padding: 0.3em 1.5em;
+    border: 1px solid #ddd;
+}
+
+table th {
+    color: #005493;
+
+}
+tr:hover {
+    background: #f1f1f1;
+}
 
 // Hide the footer
 footer {
