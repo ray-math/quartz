@@ -88,8 +88,7 @@ hr {
     font-style: normal;
     font-weight: 300; // 본문
     font-display: swap;
-    src: local("Noto Sans Light"), local("NotoSans-Light"),
-    url("/static/fonts/NotoSans-Medium.woff2") format("woff2");
+    src: url("/static/fonts/NotoSans-Light.woff2") format("woff2");
 }
   
   @font-face {
@@ -97,8 +96,7 @@ hr {
     font-style: normal;
     font-weight: 600; // 헤더
     font-display: swap;
-    src: local("Noto Sans Medium"), local("NotoSans-Medium"),
-    url("/static/fonts/NotoSans-Medium.woff2") format("woff2");
+    src: url("/static/fonts/NotoSans-Medium.woff2") format("woff2");
 }
   
   :root {
