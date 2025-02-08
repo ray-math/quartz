@@ -1,4 +1,6 @@
 ---
+title: Faulhaber의 공식
+date: 2025-01-11
 tags:
   - 합
   - 함수

@@ -1,5 +1,7 @@
 ---
 title: "Data Update 1 for 2025: The Draw (and Danger) of Data"
+date: 2025-02-06
+tags:
 ---
 ## 데이터의 매력(과 위험성)
 
