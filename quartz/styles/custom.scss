@@ -2,17 +2,19 @@
 
 // put your custom CSS here!
 
-h1, h2, h3, h4 {
-    color: #005493;
-    padding-top: 1em;
-    padding-bottom: 0.3em;
-  }
+.center h1,
+.center h2,
+.center h3,
+.center h4 {
+  color: #005493;
+}
 
-p, ol, li{
+.center p,
+.center ol,
+.center li {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     line-height: 1.6em;
-
 }
 
 .callout {
@@ -100,4 +102,6 @@ hr {
   :root {
     --headerFont: "NotoSans", sans-serif;
     --bodyFont: "NotoSans", sans-serif;
+    --headerWeight: 600; /* 헤더 폰트 가중치 */
+    --bodyWeight: 300; /* 본문 폰트 가중치 */
   }
