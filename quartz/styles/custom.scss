@@ -88,16 +88,18 @@ hr {
     font-style: normal;
     font-weight: 300; // 본문
     font-display: swap;
-    src: url("/static/fonts/NotoSans-Light.woff2") format("woff2");
-  }
+    src: local("Noto Sans Medium"), local("NotoSans-Medium"),
+    url("/static/fonts/NotoSans-Medium.woff2") format("woff2");
+}
   
   @font-face {
     font-family: "NotoSans";
     font-style: normal;
     font-weight: 600; // 헤더
     font-display: swap;
-    src: url("/static/fonts/NotoSans-Medium.woff2") format("woff2");
-  }
+    src: local("Noto Sans Medium"), local("NotoSans-Medium"),
+    url("/static/fonts/NotoSans-Medium.woff2") format("woff2");
+}
   
   :root {
     --headerFont: "NotoSans", sans-serif;
