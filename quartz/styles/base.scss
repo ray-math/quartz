@@ -66,11 +66,11 @@ ul,
 }
 
 strong {
-  font-weight: 600;
+  font-weight: $semiBoldWeight;
 }
 
 a {
-  font-weight: 600;
+  font-weight: $semiBoldWeight;
   text-decoration: none;
   transition: color 0.2s ease;
   color: var(--secondary);
