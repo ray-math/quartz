@@ -165,27 +165,6 @@ export default (() => {
         {/* ✅ Google Search Console 메타 태그 */}
         <meta name="google-site-verification" content="RjR4E2c1MRLgp0_TjyEVtmP48GjyYdHevuyk_1GIY2s" />
 
-        <style dangerouslySetInnerHTML={{
-      __html: `
-        @font-face {
-          font-family: "NotoSans";
-          font-style: normal;
-          font-weight: 300;
-          font-display: swap;
-          src: url("${joinSegments(baseDir, "static/fonts/NotoSans-Light.woff2")}") format("woff2");
-        }
-        
-        @font-face {
-          font-family: "NotoSans";
-          font-style: normal;
-          font-weight: 600;
-          font-display: swap;
-          src: url("${joinSegments(baseDir, "static/fonts/NotoSans-Medium.woff2")}") format("woff2");
-        }
-      `
-    }} />
-        
-{/*
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -193,7 +172,6 @@ export default (() => {
             <link rel="stylesheet" href={googleFontHref(cfg.theme)} />
           </>
         )}
-*/}
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin={"anonymous"} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* OG/Twitter meta tags */}

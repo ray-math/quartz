@@ -2,10 +2,7 @@
 
 // put your custom CSS here!
 
-.center h1,
-.center h2,
-.center h3,
-.center h4 {
+h1, h2, h3, h4 {
   color: #005493;
 }
 
@@ -32,16 +29,6 @@ img {
     margin-right: auto;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-}
-
-mjx-container[display="true"] {
-    display: block;
-    text-align: center;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-}
-mjx-container[display="false"] {
-    display: inline;
 }
 
 // Center align tables
@@ -83,7 +70,22 @@ hr {
 }
 
 // Fonts
-
+@font-face {
+    font-family: "NotoSans";
+    font-style: normal;
+    font-weight: 300; // 본문
+    font-display: swap;
+    src: url("/static/fonts/NotoSans-Light.woff2") format("woff2");
+}
+  
+  @font-face {
+    font-family: "NotoSans";
+    font-style: normal;
+    font-weight: 600; // 헤더
+    font-display: swap;
+    src: url("/static/fonts/NotoSans-Medium.woff2") format("woff2");
+}
+  
   :root {
     --headerFont: "NotoSans", sans-serif;
     --bodyFont: "NotoSans", sans-serif;
