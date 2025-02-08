@@ -158,6 +158,13 @@ export default (() => {
       <head>
         <title>{title}</title>
         <meta charSet="utf-8" />
+
+        {/* ✅ 네이버 소유 확인 메타 태그*/}
+        <meta name="naver-site-verification" content="5e159a7268919737a48b96b31da3abdead65347b" />
+    
+        {/* ✅ Google Search Console 메타 태그 */}
+        <meta name="google-site-verification" content="RjR4E2c1MRLgp0_TjyEVtmP48GjyYdHevuyk_1GIY2s" />
+
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
