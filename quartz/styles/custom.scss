@@ -4,7 +4,6 @@
 
 h1, h2, h3, h4 {
     color: #005493;
-    border-bottom: 2px solid #eaecef;
     padding-top: 1em;
     padding-bottom: 0.3em;
   }
@@ -83,23 +82,22 @@ hr {
 
 // Fonts
 @font-face {
-    font-family: "NotoSansKR";
+    font-family: "NotoSans";
     font-style: normal;
     font-weight: 300; // 본문
     font-display: swap;
-    src: url("/static/fonts/NotoSansKR-Light.ttf") format("truetype");
+    src: url("/static/fonts/NotoSans-Light.woff2") format("woff2");
   }
   
   @font-face {
-    font-family: "NotoSansKR";
+    font-family: "NotoSans";
     font-style: normal;
     font-weight: 600; // 헤더
     font-display: swap;
-    src: url("/static/fonts/NotoSansKR-Medium.ttf") format("truetype");
+    src: url("/static/fonts/NotoSans-Medium.woff2") format("woff2");
   }
   
   :root {
-    --headerFont: "NotoSansKR", sans-serif;
-    --bodyFont: "NotoSansKR", sans-serif;
+    --headerFont: "NotoSans", sans-serif;
+    --bodyFont: "NotoSans", sans-serif;
   }
-  

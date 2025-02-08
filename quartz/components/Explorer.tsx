@@ -95,6 +95,7 @@ export default ((userOpts?: Partial<Options>) => {
           data-tree={jsonTree}
           data-mobile={true}
           aria-controls="explorer-content"
+          aria-label={"explorer-content"}
           aria-expanded={false}
         >
           <svg
@@ -122,6 +123,7 @@ export default ((userOpts?: Partial<Options>) => {
           data-tree={jsonTree}
           data-mobile={false}
           aria-controls="explorer-content"
+          aria-label={"explorer-content"}
           aria-expanded={true}
         >
           <h2>{opts.title ?? i18n(cfg.locale).components.explorer.title}</h2>
