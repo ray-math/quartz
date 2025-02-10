@@ -72,7 +72,14 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({renderEngine: "katex"}),
+      Plugin.Latex({
+        renderEngine: "katex",
+        options: {
+          strict: false,  // 경고 메시지를 끄거나
+          trust: true,    // 더 많은 명령어 허용
+          throwOnError: false  // 오류가 있어도 계속 진행
+        }
+      }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
