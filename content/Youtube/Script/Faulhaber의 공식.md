@@ -2,36 +2,12 @@
 title: Faulhaber의 공식
 date: 2025-01-11
 tags:
-  - 합
-  - 함수
-  - 이용
   - 베르누이
-  - 정리
-  - 다음
-  - 결과
-  - 계산
-  - 항
-  - 수열
-  - 급수
-  - 거듭제곱
-  - 규칙
-  - 합
-  - 함수
-  - 이용
-  - 베르누이
-  - 정리
-  - 다음
-  - 결과
-  - 계산
-  - 항
-  - 수열
   - 급수
   - 거듭제곱
   - 규칙
   - faulhaber
   - 이항정리
-share_link: https://share.note.sx/ewu9abas#o4fbJYcLNoH2+KseimlWGas8t27Wy7V47Ui8EgRiJDY
-share_updated: 2025-01-01T21:33:32+09:00
 ---
 ### 수열의 합
 우리는 고등학교에서 다양한 수열의 합을 구하게됩니다. 이때 $\sum$이란 기호를 처음 배우면서 가장 간단한 거듭제곱 수열들의 합을 유도하는 과정에 대해서 배우게 되죠.
@@ -66,10 +42,15 @@ $$
 
 이때 $2S$ 즉, 두 수열의 합을 보면 $n+1$이 $n$번 더해져 있이므로 $n\times(n+1)$입니다. 따라서 우리가 구해야하는 수열의 합 $S$는 두 수열을 더한 값을 $2$로 나눈 것과 같습니다.
 
-$$S = \frac{n(n+1)}{2}$$  
+$$
+S = \frac{n(n+1)}{2}
+$$  
 이 식을 이용하면 유용한 값들을 쉽게 찾을 수 있습니다. 예를들어 $k$가 홀수라면 $k=2m-1$을 대입하여 홀수들의 합은 제곱수를 만든다는 사실을 쉽게 증명할 수 있죠. 그리고 등차 수열은 $n$에 대한 $1$차 함수이므로 같은 방법으로 빠르게 해결할 수 있습니다.
 
-$$\sum_{k=1}^n 2k-1 = 2\times \frac{n(n+1)}{2} - n=n^2$$
+$$
+\sum_{k=1}^n 2k-1 = 2\times \frac{n(n+1)}{2} - n=n^2
+$$
+
 ![홀수의 합|200](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Square_number_16_as_sum_of_gnomons.svg/1280px-Square_number_16_as_sum_of_gnomons.svg.png)
 
 ## 1부터 $n^2$까지의 정수의 합
@@ -107,20 +88,24 @@ $$
 
 다음으로 우변을 보겠습니다. 우변은 $\sum$에 선형성에 따라 분배해주면 식을 다음과 정리할 수 있습니다.
 
-$$ \begin{align*}
+$$
+\begin{align*}
 &~\sum_{k=1}^n \left(3k^2 - 3k + 1\right) \\
 =~ & 3  \sum_{k=1}^{n} k^2 - 3 \sum_{k=1}^{n} k + \sum_{k=1}^{n} 1 \\
 =~ & 3  \sum_{k=1}^{n} k^2 - 3 \times \frac{n(n+1)}{2} + n \\
-\end{align*}$$
+\end{align*}
+$$
 
 마지막으로 정리된 결과를 원래식에 대입하여 $\sum_{k=1}^n k^2$으로 식을 정리해주면 $1$부터 $n^2$까지의 합을 구하는 공식을 구할 수 있습니다.
 
-$$\begin{align*}
+$$
+\begin{align*}
 &&n^3 &= 3  \sum_{k=1}^{n} k^2 - 3 \frac{n(n+1)}{2} + n\\
 \Rightarrow&& 3 \sum_{k=1}^{n} k^2 &= n^3 + 3 \times \frac{n(n+1)}{2} - n \\
 \Rightarrow&& \sum_{k=1}^{n} k^2 &= \frac{1}{3} n^3 + \frac{1}{2} n^2 + \frac{1}{6} n \\
 \Rightarrow&& \sum_{k=1}^{n} k^2 & = \frac{n(n+1)(2n+1)}{6}
-\end{align*}$$
+\end{align*}
+$$
 
 그리고 같은 방법으로 어렵지 않게 $1$부터 $n^3$까지의 합을 구하는 공식도 구할 수 있습니다.
 
@@ -179,15 +164,19 @@ $e^x = \sum \frac{1}{n!}x^n$임을 이용해 $x=mx$를 대입한다면 $(1)$번 
 
 $(1)$번 식과 $(2)$번 식은 같으므로 이로부터 거듭제곱의 합을 다음과 같이 나타낼 수 있습니다. 이후 조합을 이용하면 앞선 계수가 깔끔하게 정리됩니다. 
 
-$$\begin{align*}
+$$
+\begin{align*}
 \sum_{k=1}^{n-1} k^m &= \sum_{i=0}^{m} \frac{1}{m-i+1} \binom{m}{i} B_i n^{m+1-i} \\
 &= \sum_{i=0}^{m} \frac{m!}{(m-i+1) i! (m-i)!} B_i n^{m+1-i} \\
 &= \frac{1}{m+1} \sum_{i=0}^{m} \binom{m+1}{i} B_i n^{m+1-i}
-\end{align*}$$
+\end{align*}
+$$
 
 마지막으로 양변에 $n^m$을 더하면, 거듭제곱의 합은 $B_i$라는 값을 이용해 변형할 수 있습니다. 여기서 갑자기 부호가 나와 이상하시겠지만 그것은 잠시만 나중에 다뤄보겠습니다. 
 
-$$\sum_{k=1}^{n} k^m = \frac{1}{m+1} \sum_{i=0}^{m} (-1)^i\binom{m+1}{i} B_i n^{m+1-i}$$
+$$
+\sum_{k=1}^{n} k^m = \frac{1}{m+1} \sum_{i=0}^{m} (-1)^i\binom{m+1}{i} B_i n^{m+1-i}
+$$
 
 그렇다면 $B_i$가 무엇이길래 거듭제곱의 합을 구하는데 사용될 수 있을까요?
 
@@ -198,7 +187,8 @@ $$
 $$
 테일러 정리를 이용해 $B_i$를 찾아보면, 다음과 같이 $B_i$를 찾아낼 수 있습니다.[^2]
 
-$$\begin{align*}
+$$
+\begin{align*}
 \frac{x}{e^x - 1} &= 1 - \frac{x}{2} + \frac{x^2}{12} - \frac{x^4}{720} + \frac{x^6}{30240} - \cdots\\
 &=1\cdot \frac{1}{0!}-\frac{1}{2}\cdot \frac{x}{1!} + \frac{1}{6} \cdot \frac{x^2}{2!}-\frac{1}{30}\cdot \frac{x^4}{4!} + \frac{1}{42} \cdot \frac{x^6}{6!} - \cdots\\
 \end{align*}
@@ -215,10 +205,15 @@ $$
 얼핏 보면 이 숫자들이 너무 불규칙적이라 별로 중요하지 않다고 생각하실 수도 있습니다. 그런데 사실 이 숫자들은 우리가 생각보다 자주 등장합니다.[^3]
 
  $\coth(x)$는 지수함수를 이용해 정의할 수 있으므로, 
-$$\coth(x) = \frac{\cosh(x)}{\sinh(x)} = \frac{e^x + e^{-x}}{e^x - e^{-x}}$$
+$$
+\coth(x) = \frac{\cosh(x)}{\sinh(x)} = \frac{e^x + e^{-x}}{e^x - e^{-x}}
+$$
 
 앞서 보았던 베르누이 함수의 짝수 부분만 고려한 함수로 나타낼 수 있습니다.
-$$\sum_{n=0}^{\infty} \frac{B_{2n} x^{2n}}{(2n)!} = \frac{x}{2} \coth \left( \frac{x}{2} \right)$$
+
+$$
+\sum_{n=0}^{\infty} \frac{B_{2n} x^{2n}}{(2n)!} = \frac{x}{2} \coth \left( \frac{x}{2} \right)
+$$
 
 복소수에서의 오일러 공식을 이용하면 $\cot(x)=i\coth(ix)$와 같으므로, 
 
@@ -227,16 +222,21 @@ $$
 $$
 
 앞선 식을 이용해 $\cot(x)$에 대한 생성함수를 얻을 수 있습니다. 
-$$\sum_{n=0}^{\infty} \frac{(-1)^n B_{2n} x^{2n}}{(2n)!} = \frac{x}{2} \cot \left( \frac{x}{2} \right)$$
+
+$$
+\sum_{n=0}^{\infty} \frac{(-1)^n B_{2n} x^{2n}}{(2n)!} = \frac{x}{2} \cot \left( \frac{x}{2} \right)
+$$
 
 마지막으로 $\tan(x) = \cot(x) - 2 \cot(2x)$이므로, 앞선 식을 정리하면, 베르누이 수를 이용해 $\tan$의 테일러 전개도 구할 수 있습니다. 불규칙해 보였던 $\tan(x)$의 테일러 전개의 계수들이 거듭제곱의 합과 연결이 되는거죠.
 
-$$\begin{align*}
+$$
+\begin{align*}
 \tan(x) &= \sum_{n=0}^{\infty} \frac{(-1)^n B_{2n} 2^{2n} \left( x^{2n-1} - 2 \cdot 2^{2n-1} x^{2n-1} \right)}{(2n)!}\\
 &= \sum_{n=1}^{\infty} \frac{(-1)^{n-1} B_{2n} \left(2^{2n} - 1\right) 2^{2n-1} x^{2n-1}}{(2n)!}\\
 &= \sum_{n=1}^{\infty} \frac{B_{2n} (-4)^{n} \left(1-4^n \right) x^{2n-1}}{(2n)!}\\
 &= x+\frac{x^3}{3}+\frac{2x^5}{15}+\frac{17x^7}{315}+\frac{62x^9}{2835} + \cdots
-\end{align*}$$
+\end{align*}
+$$
 
 그런데 여기서 끝이 아닙니다. 베르누이 수를 이용해 다음과 같은 **베르누이 다항식**을 정의해보겠습니다. 
 
@@ -246,14 +246,16 @@ $$
 
 몇 가지 베르누이 다항식을 예로 보면, 
 
-$$\begin{align*}
+$$
+\begin{align*}
 B_0(x) &= 1\\
 B_1(x) &= x - \frac{1}{2}\\
 B_2(x) &= x^2 - x + \frac{1}{6}\\
 B_3(x) &= x^3 - \frac{3}{2}x^2 + \frac{1}{2}x\\
 B_4(x) &= x^4 - 2x^3 + x^2 - \frac{1}{30}\\
 \vdots
-\end{align*}$$
+\end{align*}
+$$
 
 베르누이 수 $B_n$는 베르누이 다항식의 $x = 0$에서 값 $B_n = B_n(0)$입니다. 이제 $n$이 커감에 따라 함수를 그려보도록 하겠습니다. 베르누이 다항식은 처음에는 규칙이 없어보일 수 있지만 $n$이 커질수록 변동폭이 증가합니다. 특히, 홀수 $n$에서는 사인 함수와, 짝수 $n$에서는 코사인 함수와 유사한 패턴을 나타내며 수렴하는 경향이 있습니다. 이는 결국 주기적인 삼각 함수의 성질과 맞물리게 됩니다.
 
@@ -261,14 +263,18 @@ B_4(x) &= x^4 - 2x^3 + x^2 - \frac{1}{30}\\
 
 주기가 1인 $\tilde{B}_n(x)$를 아래와 같이 정의하면, 
 
-$$\tilde{B}_n(x) = B_n(x), \quad 0 \leq x < 1, \quad \tilde{B}_n(x+1) = \tilde{B}_n(x), \quad x \in \mathbb{R}$$
+$$
+\tilde{B}_n(x) = B_n(x), \quad 0 \leq x < 1, \quad \tilde{B}_n(x+1) = \tilde{B}_n(x), \quad x \in \mathbb{R}
+$$
 
 주기적 베르누이 함수 $\tilde{B}_n(x)$는 $n \geq 2$일 때, $n-1$차 미분까지 연속이며, 푸리에 급수는 다음과 같습니다.
 
-$$\begin{align*}
+$$
+\begin{align*}
 \tilde{B}_{2n}(x) &= (-1)^{n+1}\frac{2(2n)!}{(2\pi)^{2n}} \sum_{m=1}^{\infty} \frac{\cos(2m\pi x)}{m^{2n}}\\
 \tilde{B}_{2n+1}(x) &= (-1)^{n+1}\frac{2(2n+1)!}{(2\pi)^{2n+1}} \sum_{m=1}^{\infty} \frac{\sin(2m\pi x)}{m^{2n+1}}
-\end{align*}$$
+\end{align*}
+$$
 
 앞서 본 결과와 잘 맞아 떨어지죠. 이 식으로 알 수 있는 정보가 더 있을까요? 마지막으로 이 식의 양변에 $0$을 대입해보면 어떻게 될까요? 양변에 $0$을 대입하면 $\cos 0=1$이므로, 우변이 간단하게 정리됩니다. 이 때, $\sum_{m=1}^{\infty} \frac{1}{m^{2n}}$은 너무나 유명한 식이 됩니다.
 
@@ -278,7 +284,9 @@ $$
 
 바로 리만 제타 함수죠.
 
-$$\zeta(s) = \sum_{m=1}^{\infty} \frac{1}{m^s}$$
+$$
+\zeta(s) = \sum_{m=1}^{\infty} \frac{1}{m^s}
+$$
 
 따라서 리만 제타 함수에 짝수를 대입한 값은 베르누이 수를 이용해 찾을 수 있습니다. 이렇게 보면 리만 제타함수가 짝수를 정의역으로 가질 때, 함숫값에 $\pi$가 들어가는 이유를 색다르게 해석할 수 있습니다.[^4]
 
@@ -293,26 +301,33 @@ $$
 ## 파울 하버의 공식
 이야기가 멀리 가버렸지만, 다시 원래 문제인 거듭제곱의 합으로 돌아와보겠습니다. 앞서 유도했던 이 식은 **파울하버 공식**(Faulhaber’s formula)이라 불립니다. 이제는 $B_i$의 값들이 익숙하므로 손쉽게 거듭제곱의 합을 구할 수 있을 것 처럼 보입니다.
 
-$$\sum_{k=1}^{n} k^m = \frac{1}{m+1} \sum_{i=0}^{m} (-1)^i\binom{m+1}{i} B_i n^{m+1-i}$$
+$$
+\sum_{k=1}^{n} k^m = \frac{1}{m+1} \sum_{i=0}^{m} (-1)^i\binom{m+1}{i} B_i n^{m+1-i}
+$$
 
 이 식을 이용해 거듭제곱의 합을 구하기에 앞서, 건너 뛰었던 증명을 조금 자세히 들여다 보겠습니다. 
-$$\begin{align*}
+$$
+\begin{align*}
 \sum_{k=1}^{n-1} k^m &= \sum_{i=0}^{m} \frac{1}{m-i+1} \binom{m}{i} B_i n^{m+1-i} \\
 &= \sum_{i=0}^{m} \frac{m!}{(m-i+1) i! (m-i)!} B_i n^{m+1-i} \\
 &= \frac{1}{m+1} \sum_{i=0}^{m} \binom{m+1}{i} B_i n^{m+1-i}
-\end{align*}$$
+\end{align*}
+$$
 
 
 $\sum_{k=1}^{n} k^m$을 구하기 위해 $\sum_{k=1}^{n-1} k^m$에 $n^m$을 더해보겠습니다. $\frac{1}{m+1}$로 식을 묶어 표현하면 다음과 같이 정리됩니다.
-$$\begin{align*}
+$$
+\begin{align*}
 & \sum_{k=1}^{n} k^m = \sum_{k=1}^{n-1} k^m + n^m \\
 \Rightarrow ~& \sum_{k=1}^{n} k^m = \frac{1}{m+1} \sum_{i=0}^{m} \binom{m+1}{i} B_i n^{m+1-i} + n^m\\
 \Rightarrow ~& \sum_{k=1}^{n} k^m = \frac{1}{m+1} \left( \sum_{i=0}^{m} \binom{m+1}{i} B_i n^{m+1-i} + (m+1) n^m \right)\\
-\end{align*}$$
+\end{align*}
+$$
 
 이때,  $i=1$인 항에 주목해보겠습니다. $B_1 = -\frac{1}{2}$이고, $\binom{m+1}{1} = m+1$이므로,
 
-$$\begin{align*}
+$$
+\begin{align*}
 &\binom{m+1}{1} B_1 n^{m+1-1} +(m+1) n^{m}\\
 = ~ &(m+1) \left( -\frac{1}{2} \right) n^{m}  +(m+1) n^{m}\\
 = ~&-\frac{(m+1)}{2} n^{m} + (m+1) n^{m} \\
@@ -329,17 +344,21 @@ $$
 
 베르누이 수 $B_i$는 $i \ge3$인 홀수 일 때 $B_i = 0$이므로 $(-1)^\text{(홀수)}=-1$이지만 영향을 미치지 않고, 
 
-$$\begin{array}{c|c}
+$$
+\begin{array}{c|c}
 \begin{array}{c|c|c|c|c|c|c|c|c|c|c|c|c|c|c}
 n & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & \cdots\\
 \hline
 B_n & 1 & -\frac{1}{2} & \frac{1}{6} & 0 & -\frac{1}{30} & 0 & \frac{1}{42} & 0 & -\frac{1}{30} & 0 & \frac{5}{66} & 0 & -\frac{691}{2730} \\
 \end{array}
-\end{array}$$
+\end{array}
+$$
 
 짝수 일 때는 $(-1)^\text{(짝수)}=1$이므로 같은 식입니다. 따라서, 다음과 같이 식을 정리할 수 있지요.
 
-$$\sum_{k=1}^{n} k^m = \frac{1}{m+1} \sum_{i=0}^{m} (-1)^i\binom{m+1}{i} B_i n^{m+1-i}$$
+$$
+\sum_{k=1}^{n} k^m = \frac{1}{m+1} \sum_{i=0}^{m} (-1)^i\binom{m+1}{i} B_i n^{m+1-i}
+$$
 
 파울하버의 공식을 이용하면 $\sum_{k=1}^{n} k^m$에 대하여, $\sum_{k=1}^{10^{6}} k^{10}$와 같은 복잡한 거듭제곱의 합도 컴퓨터를 사용해 빠르게 계산할 수 있습니다. 
 
@@ -389,9 +408,11 @@ print(f"파울하버 공식 결과: {faulhaber_result}, 시간: {faulhaber_time:
 
 파울하버 공식은 단순히 수학적 계산의 효율성을 높여줄 뿐만 아니라, 복잡한 문제를 단순화하여 접근하는 데 큰 도움을 줄 수도 있습니다.[^5]
 
->[!note] 오일러-매클로린 공식 (Euler–Maclaurin formula)
->오일러-마클로린 공식은 적분과 급수의 근사 관계를 통해 복잡한 급수를 간단하게 계산하는 데 사용됩니다.
->$$\sum_{k=a}^n f(k) - \int_a^n f(x) \, dx = \frac{f(n) + f(a)}{2} + \sum_{k=1}^{\infty} B_{2k} \frac{f^{(2k-1)}(n) - f^{(2k-1)}(a)}{(2k)!}$$
+**오일러-매클로린 공식 (Euler–Maclaurin formula)**
+오일러-마클로린 공식은 적분과 급수의 근사 관계를 통해 복잡한 급수를 간단하게 계산하는 데 사용됩니다.
+$$
+\sum_{k=a}^n f(k) - \int_a^n f(x) \, dx = \frac{f(n) + f(a)}{2} + \sum_{k=1}^{\infty} B_{2k} \frac{f^{(2k-1)}(n) - f^{(2k-1)}(a)}{(2k)!}
+$$
 
 복잡해 보이는 수식 뒤에 숨겨진 패턴과 논리를 발견하는 과정은 단순한 계산을 넘어 수학의 본질을 이해하고 응용하는 것과 연결됩니다. 앞서 본 제타함수의 공식은 양자장론에서 무한대가 발생하는 진동수의 합을 처리할 때 **제타 함수 규칙화**(zeta function regularization)기법에 응용될 수 있습니다.
 $$\zeta(2n) = (-1)^{n+1} \frac{B_{2n} (2\pi)^{2n}}{2 (2n)!}$$
