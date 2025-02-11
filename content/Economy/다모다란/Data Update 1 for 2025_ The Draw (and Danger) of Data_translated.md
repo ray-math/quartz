@@ -23,7 +23,7 @@ tags:
 
 **샘플**
 
-데이터는 그 어느 때보다 더 접근 가능하고 사용 가능하다는 것은 부인할 수 없으며, 나는 그 혜택을 누리고 있습니다. 나는 여러 원시 데이터 출처에서 데이터를 수집하는데, 그 중 일부는 모든 사람에게 무료로 제공되며, 일부는 내가 비용을 지불하고, 일부는 내가 대학의 경영대학원에서 일하기 때문에 접근할 수 있는 것입니다. 기업 데이터의 주요 출처는 S&P Capital IQ이며, Bloomberg 터미널의 데이터를 보완합니다. 거시경제 데이터의 경우, 주요 출처는 [FRED, the data set maintained by the Federal Reserve Bank](https://fred.stlouisfed.org/)이지만, 온라인에서 찾은 다른 데이터로 보완합니다. 여기에는 채권 스프레드 데이터에 대한 [NAIC](https://content.naic.org/)와 국가 위험 점수에 대한 [Political Risk Services (PRS)](https://www.prsgroup.com/)가 포함됩니다.
+데이터는 그 어느 때보다 더 접근 가능하고 사용 가능하다는 것은 부인할 수 없으며, 나는 그 혜택을 누리고 있습니다. 나는 여러 원시 데이터 출처에서 데이터를 수집하는데, 그 중 일부는 모든 사람에게 무료로 제공되며, 일부는 내가 비용을 지불하고, 일부는 내가 대학의 경영대학원에서 일하기 때문에 접근할 수 있는 것입니다. 기업 데이터의 주요 출처는 S&P Capital IQ이며, Bloomberg 터미널의 데이터를 보완합니다. 거시경제 데이터의 경우, 주요 출처는 [FRED, the data set maintained by the Federal Reserve Bank](https://fred.stlouisfed.org/)이지만, 온라인에서 찾은 다른 데이터로 보완합니다. 여기에는 채권 스프레드 데이터에 대한 [NAIC](https://content.naic.org/)와 국가 위험 점수에 대한 [Political Risk Services (PRS)](https://www.prsgroup.com/)가 포함됩니다.
 
 내 데이터 세트에는 연초에 상장된 모든 공개 거래 기업이 포함되어 있으며, 시장 가격이 있는 기업의 수는 **내 샘플에 47810개 기업이 포함되어 있습니다**. 이는 최근 몇 년간의 샘플 크기와 대략 일치합니다. 놀랍지 않게도, 기업 목록은 전 세계에 걸쳐 있으며, 나는 지역별로 기업 수와 시장 가치를 기준으로 기업 분포를 살펴봅니다:
 

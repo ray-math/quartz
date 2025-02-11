@@ -7,7 +7,7 @@ Quartz can also dynamically generate and use new cover images for every page to 
 
 ## Showcase
 
-After enabling `generateSocialImages` in `quartz.config.ts`, the social media link preview for [[authoring content | Authoring Content]] looks like this:
+After enabling `generateSocialImages` in `quartz.config.ts`, the social media link preview for [[authoring content | Authoring Content]] looks like this:
 
 | Light                               | Dark                               |
 | ----------------------------------- | ---------------------------------- |
