@@ -32,7 +32,7 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
     htmlPlugins() {
       switch (engine) {
         case "katex": {
-          return [[rehypeKatex, { output: "html", macros, strict: false, ...(opts?.katexOptions ?? {}) }]]
+          return [[rehypeKatex, { output: "html", macros, throwOnError: false, strict: false, ...(opts?.katexOptions ?? {}) }]]
         }
         case "typst": {
           return [[rehypeTypst, opts?.typstOptions ?? {}]]
