@@ -5,31 +5,19 @@
 /* 📌 Quartz의 메인 콘텐츠를 중앙 정렬 */
 .page {
   & > #quartz-body {
-    grid-template-columns: minmax(0, 320px) minmax(800px, 800px) minmax(0, 320px);
-    padding: 0 !important;
-    
     .center {
-      max-width: 600px !important;
-      width: 100% !important;
-      margin: 0;  // margin auto 제거
-      padding: 0 2rem;
+      width: 700px;
       
       & > * {
-        width: 100%;
-        max-width: 600px !important;
+        max-width: 700px;
+        margin: 0 auto;
       }
-      
-      article {
-        width: 100%;
-        max-width: 600px !important;
-      }
-      
-      @media all and (max-width: 1200px) {
-        padding: 0 2rem;
-      }
+    
     }
   }
 }
+
+
 
 // 본문 글
 h1, h2, h3, h4 {
