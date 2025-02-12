@@ -33,6 +33,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    Component.RecentNotes({
+      title: "Recent Posts",
+      limit: 3,
+      filter: (f) => (
+        f.slug! !== "posts/index"
+      ),
+    }),
   ],
 }
 

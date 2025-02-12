@@ -4,19 +4,29 @@
 
 /* 📌 Quartz의 메인 콘텐츠를 중앙 정렬 */
 .page {
-  & > #quartz-body {
-    .center {
-      width: 700px;
-      
+  max-width: 1340px;  // 700+320+320
+  
+  .left {
+    width: 100%;
+    max-width: 700px;  // 본문 너비와 동일하게 설정
+    margin: 0 auto;    // 중앙 정렬
+  }
+
+  & > #quartz-body {    
+    & .center,
+    & footer {
       & > * {
         max-width: 700px;
-        margin: 0 auto;
+        margin: auto;
       }
-    
     }
   }
 }
 
+.search {
+  width: 100%;
+  margin-left: auto;
+}
 
 
 // 본문 글
