@@ -5,13 +5,14 @@
 /* 📌 Full-Bleed Layout 적용 */
 
 /* 📌 Quartz의 메인 콘텐츠를 중앙 정렬 */
-.center {
-  max-width: 600px;
-  min-width: 300px; /* 최소 너비 설정 */
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
+.page {
+  & .center > article {
+    grid-area: grid-center;
+    max-width: 300px; // 본문의 최대 너비
+    width: min(100%, calc(100vw - 2rem)); // 뷰포트 너비에서 여백을 뺀 값과 100% 중 작은 값
+    margin-inline: auto; // 좌우 중앙 정렬
+    padding-inline: 1rem; // 좌우 패딩  
+ }
 }
 
 // 본문 글
