@@ -5,23 +5,13 @@
 /* 📌 Full-Bleed Layout 적용 */
 
 /* 📌 Quartz의 메인 콘텐츠를 중앙 정렬 */
-:root {
-  --gap: clamp(1rem, 6vw, 3rem);
-  --full: minmax(var(--gap), 1fr);
-  --content: min(50ch, 100% - var(--gap) * 2);
-  --popout: minmax(0, 2rem);
-  --feature: minmax(0, 5rem);
-}
-
-.content {
-  grid-template-columns:
-    [full-start] var(--full)
-    [feature-start] var(--feature)
-    [popout-start] var(--popout)
-    [content-start] var(--content) [content-end]
-    var(--popout) [popout-end]
-    var(--feature) [feature-end]
-    var(--full) [full-end];
+.center {
+  max-width: 600px;
+  min-width: 300px; /* 최소 너비 설정 */
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 // 본문 글
