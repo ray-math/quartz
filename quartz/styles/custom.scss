@@ -23,6 +23,28 @@
   }
 }
 
+// Explorer 파일 제목 스타일
+#explorer-content {
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(to right, 
+      rgba(250, 248, 248, 0) 0%,  // 투명 시작
+      var(--light) 100%           // 배경색으로 끝
+    );
+  }
+}
+
+#explorer-content ul li > a {
+  white-space: nowrap;
+}
+
 .search {
   width: 100%;
   margin-left: auto;

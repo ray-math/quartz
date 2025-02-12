@@ -1,5 +1,5 @@
 ---
-title: "Data Update 3 for 2025: The times they are a'changin'!"
+title: 2025(3) The times they are a'changin'!
 date: 2025-02-06
 tags:
 ---

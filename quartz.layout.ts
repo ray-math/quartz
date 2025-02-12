@@ -26,7 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.Search(),
     Component.Darkmode(),
-    Component.MobileOnly(Component.Spacer()),
+    //Component.MobileOnly(Component.Spacer()),
     Component.Explorer(),
   ],
   right: [
@@ -35,10 +35,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Backlinks(),
     Component.DesktopOnly(Component.RecentNotes({
       title: "Recent Posts",
-      limit: 3,
+      limit: 5,
       filter: (f) => (
         f.slug! !== "index"      ),
-      linkToMore: "/all-notes" as SimpleSlug,  // posts 페이지로 연결
       showTags: false,  // 태그 숨기기
     })),
   ],
@@ -53,7 +52,7 @@ export const defaultListPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
+    //Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
     Component.Explorer(),

@@ -1,5 +1,5 @@
 ---
-title: "Data Update 1 for 2025: The Draw (and Danger) of Data"
+title: 2025(1) The Draw (and Danger) of Data
 date: 2025-02-06
 tags:
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Data Update 4 for 2025: Interest Rates, Inflation and Central Banks!"
+title: 2025(4) Interest Rates, Inflation and Central Banks!
 date: 2025-02-06
 tags:
 ---

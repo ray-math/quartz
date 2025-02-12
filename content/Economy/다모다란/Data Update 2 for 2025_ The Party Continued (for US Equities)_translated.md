@@ -1,5 +1,5 @@
 ---
-title: "Data Update 2 for 2025: The Party Continued (for US Equities)"
+title: 2025(2) The Party Continued (for US Equities)
 date: 2025-02-06
 tags:
 ---
