@@ -5,19 +5,27 @@
 /* 📌 Quartz의 메인 콘텐츠를 중앙 정렬 */
 .page {
   & > #quartz-body {
+    grid-template-columns: minmax(0, 320px) minmax(800px, 800px) minmax(0, 320px);
+    padding: 0 !important;
+    
     .center {
-      width: min(800px, 100%); // 최대 800px, 모바일에서는 100%
-      margin: 0 auto;
-      padding: 0 2rem; // 좌우 패딩을 2rem으로 통일
+      max-width: 600px !important;
+      width: 100% !important;
+      margin: 0;  // margin auto 제거
+      padding: 0 2rem;
+      
+      & > * {
+        width: 100%;
+        max-width: 600px !important;
+      }
       
       article {
         width: 100%;
+        max-width: 600px !important;
       }
       
-      // 1200px 이하에서의 스타일
       @media all and (max-width: 1200px) {
-        width: 100%;
-        max-width: 800px;
+        padding: 0 2rem;
       }
     }
   }
