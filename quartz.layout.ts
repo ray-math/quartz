@@ -35,10 +35,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Backlinks(),
     Component.DesktopOnly(Component.RecentNotes({
       title: "Recent Posts",
-      limit: 5,
-      filter: (f) => (
-        f.slug! !== "index"      ),
+      limit: 4,
+      filter: (f) => f.slug! !== "index",
       showTags: false,  // 태그 숨기기
+      linkToMore: "blog/" as SimpleSlug,
     })),
   ],
 }

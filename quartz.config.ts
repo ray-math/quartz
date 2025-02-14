@@ -17,15 +17,15 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "raymath.pages.dev",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "Templater - Notes.md", "Templater - RecentNotes.md", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
       fontOrigin: "local",
       cdnCaching: false,
       typography: {
-        header: "Noto Sans", 
-        body: "Noto Sans",
+        header: "NotoSans-Light", 
+        body: "NotoSans-Light",
         code: "IBM Plex Mono",
       },
       colors: {
