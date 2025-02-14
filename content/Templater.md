@@ -1,93 +1,91 @@
+---
+published: "false"
+---
 <%*
-const rootFolder = "content"; // Vault 내부 상대 경로 (절대 경로 X)
-const outputPath = `${rootFolder}/Posts.md`; // 고정된 파일명 사용 (날짜 제거)
+const rootFolder = "content"; // Vault 내부 상대 경로
+const outputNotesPath = `${rootFolder}/Notes.md`; // Notes 저장 경로
 
-console.log("📂 생성할 파일 경로:", outputPath);
+console.log("📂 파일을 생성할 경로:", outputNotesPath);
 
-// 1️⃣ **폴더 존재 여부 확인 후 생성 (없으면 자동 생성)**
-const folderExists = app.vault.getAbstractFileByPath(rootFolder);
-if (!folderExists) {
-    await app.vault.createFolder(rootFolder);
-    new Notice(`📁 '${rootFolder}' 폴더가 없어서 자동 생성했습니다.`);
-}
-
-// 2️⃣ **모든 Markdown 파일 가져오기 (루트 폴더 제외)**
+// **1️⃣ 모든 Markdown 파일 가져오기**
 const allFiles = app.vault.getFiles()
-    .filter(file => file.path.startsWith(rootFolder + "/") && file.extension === "md")
-    .filter(file => file.path.split("/").length > 2); // 루트 폴더 파일 제외
+    .filter(file => file.path.startsWith(rootFolder + "/") && file.extension === "md");
 
-console.log("📂 모든 파일 목록:", allFiles.map(file => file.path)); // 디버깅용
-
-// 3️⃣ **정리할 파일이 없는 경우 종료**
+// **2️⃣ 파일이 없으면 종료**
 if (allFiles.length === 0) {
     new Notice("⚠️ /content 폴더에 Markdown 파일이 없습니다.");
     return;
 }
 
-// 4️⃣ **파일 내용 초기화**
-let content = ``; // 파일 제목 및 날짜 제거
+// **3️⃣ 폴더별 정리**
+const folderMap = {};
+for (const file of allFiles) {
+    const parts = file.path.split("/");
+    if (parts.length < 3) continue; // 📌 루트 폴더 아래 파일 제외 (최소 depth 3)
 
-// 5️⃣ **폴더 목록 가져오기 (가나다 정렬)**
-const folderNames = [...new Set(allFiles
-    .map(file => file.path.split("/")[1]))] // 상위 폴더만 추출
-    .sort((a, b) => a.localeCompare(b, "ko-KR"));
+    const folder = parts[1]; 
+    const subFolder = parts.length > 3 ? parts[2] : null; 
 
-console.log("📂 정렬된 폴더 목록:", folderNames);
+    if (!folderMap[folder]) folderMap[folder] = { files: [], subFolders: {} };
+    if (subFolder) {
+        if (!folderMap[folder].subFolders[subFolder]) folderMap[folder].subFolders[subFolder] = [];
+        folderMap[folder].subFolders[subFolder].push(file);
+    } else {
+        folderMap[folder].files.push(file);
+    }
+}
 
-// 6️⃣ **각 폴더별 파일 정리**
-folderNames.forEach(folder => {
-    content += `## ${folder}\n\n`;
+// **📂 폴더 가나다순 정렬**
+const sortedFolders = Object.keys(folderMap).sort((a, b) => a.localeCompare(b, "ko-KR"));
 
-    // 하위 폴더 목록 추출 (가나다 정렬)
-    const subFolders = [...new Set(allFiles
-        .filter(file => file.path.startsWith(`${rootFolder}/${folder}/`) && file.path.split("/").length > 3) // 하위 폴더만
-        .map(file => file.path.split("/")[2]))] // 하위 폴더명 추출
-        .sort((a, b) => a.localeCompare(b, "ko-KR"));
+// **📑 Notes.md 생성**
+let notesContent = "";
+for (const folder of sortedFolders) {
+    notesContent += `## ${folder}\n`;
 
-    console.log(`📂 ${folder} 하위 폴더 목록:`, subFolders);
-
-    // 하위 폴더별 파일 정리
-    subFolders.forEach(subFolder => {
-        content += `### ${subFolder}\n\n`;
-
-        const subFolderFiles = allFiles
-            .filter(file => file.path.startsWith(`${rootFolder}/${folder}/${subFolder}/`))
-            .map(file => ({
-                name: file.basename,
-                modified: file.stat.mtime // 수정 시간 가져오기
-            }));
-
-        // 📌 Youtube 폴더 내 파일은 최신 날짜순 정렬 (내림차순)
-        if (folder === "Youtube") {
-            subFolderFiles.sort((a, b) => b.modified - a.modified);
-        } else {
-            subFolderFiles.sort((a, b) => a.name.localeCompare(b.name, "ko-KR"));
+    // 📌 **상위 폴더 내 직접 포함된 md 파일 가져오기**
+    let topLevelFiles = folderMap[folder].files.map(file => {
+        let fileCache = app.metadataCache.getCache(file.path);
+        let title = file.basename;
+        
+        if (fileCache && fileCache.frontmatter && fileCache.frontmatter.title) {
+            title = fileCache.frontmatter.title;
         }
 
-        subFolderFiles.forEach(file => {
-            content += `- [[${file.name}]]\n`;
-        });
+        return { name: file.basename, title: title };
+    }).sort((a, b) => a.title.localeCompare(b.title, "ko-KR"));
 
-        content += "\n";
-    });
+    for (const file of topLevelFiles) {
+        notesContent += `- [[${file.name} | ${file.title}]]\n`;
+    }
 
-    content += "\n";
-});
+    // 📌 **하위 폴더 정렬 후 추가**
+    const sortedSubFolders = Object.keys(folderMap[folder].subFolders).sort((a, b) => a.localeCompare(b, "ko-KR"));
 
-// 7️⃣ **파일이 이미 존재하면 삭제 후 생성**
-const existingFile = app.vault.getAbstractFileByPath(outputPath);
-if (existingFile) {
-    await app.vault.delete(existingFile);
-    console.log(`🗑 기존 파일 삭제: ${outputPath}`);
+    for (const subFolder of sortedSubFolders) {
+        notesContent += `\n### ${subFolder}\n`;
+
+        let subFolderFiles = folderMap[folder].subFolders[subFolder].map(file => {
+            let fileCache = app.metadataCache.getCache(file.path);
+            let title = file.basename;
+            
+            if (fileCache && fileCache.frontmatter && fileCache.frontmatter.title) {
+                title = fileCache.frontmatter.title;
+            }
+
+            return { name: file.basename, title: title };
+        }).sort((a, b) => a.title.localeCompare(b.title, "ko-KR"));
+
+        for (const file of subFolderFiles) {
+            notesContent += `- [[${file.name} | ${file.title}]]\n`;
+        }
+    }
+    notesContent += "\n";
 }
 
-// 8️⃣ **새로운 Markdown 파일 생성 (`/content/Posts.md` 내부에 저장)**
-try {
-    await app.vault.create(outputPath, content);
-    new Notice(`✅ 파일 생성 완료: ${outputPath}`);
-} catch (error) {
-    new Notice(`❌ 파일 생성 실패: ${error}`);
-    console.log("파일 생성 오류:", error);
-}
+// **📌 Notes.md 덮어쓰기**
+await app.vault.adapter.write(outputNotesPath, notesContent);
+new Notice(`✅ '${outputNotesPath}' 생성 완료`);
+
+return;
 %>
-
