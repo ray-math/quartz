@@ -32,14 +32,10 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-    Component.DesktopOnly(Component.RecentNotes({
-      title: "Recent Posts",
-      limit: 4,
-      filter: (f) => f.slug! !== "index",
-      showTags: false,  // 태그 숨기기
-      linkToMore: "blog/" as SimpleSlug,
-    })),
+    Component.Backlinks({
+      filterFn: (backlink) => backlink.slug !== 'Notes' && backlink.slug !== 'Recent Notes'
+    }),
+    //Component.DesktopOnly(Component.RecentNotes()),
   ],
 }
 
