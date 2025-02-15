@@ -32,9 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks({
-      filterFn: (backlink) => backlink.slug !== 'Notes' && backlink.slug !== 'Recent Notes'
-    }),
+    Component.Backlinks(),
     //Component.DesktopOnly(Component.RecentNotes()),
   ],
 }

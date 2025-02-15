@@ -1,26 +1,6 @@
 ## Class
-- [[완전 순열 | 교란(Derangement)]]
-- [[그래프 완전정복 1 - 기본 | 그래프 그리기 1]]
-- [[그래프 완전정복 2 - 사칙연산 | 그래프 그리기 2]]
-- [[그래프 완전정복 3 - 평행, 대칭, 주기, 확대 | 그래프 그리기 3]]
-- [[그래프 완전정복 4 - 절댓값 함수, 가우스 함수 | 그래프 그리기 4]]
-- [[그래프 완전정복 5 - 합성함수 | 그래프 그리기 5]]
-- [[그래프 완전정복 6 - 볼록함수 | 그래프 그리기 6]]
-- [[다항함수의 넓이 공식 | 다항 함수의 넓이 공식]]
-- [[로피탈 | 로피탈의 법칙(L'Hôpital's rule)]]
-- [[사인함수의 넓이 | 사인 함수의 넓이]]
-- [[삼각형의 넓이 | 삼각형의 넓이]]
-- [[삼차 함수 | 삼차함수(Cubic function)]]
-- [[연속 함수 | 연속 함수(Continuous)]]
-- [[우함수와 기함수 | 우함수와 기함수(Even & Odd function)]]
-- [[이항정리 | 이항정리(Binomial theorem)]]
-- [[함수 | 일대일 함수]]
-- [[테일러 급수 | 테일러 급수(Taylor series)]]
-- [[편미분 | 편미분]]
-- [[함수의 개수 | 함수의 개수]]
-- [[행렬 OX | 행렬 OX]]
 
-### 공통수학
+### 공통
 - [[분할과 분배 | 분할과 분배]]
 - [[순열과 조합 | 순열과 조합]]
 - [[원의 접선의 방정식 | 원의 접선의 방정식]]
@@ -30,13 +10,50 @@
 - [[좌표평면 위의 삼각형의 넓이 | 좌표평면 위의 삼각형의 넓이]]
 - [[특수한 형태의 유리식의 계산 | 특수한 형태의 유리식의 계산]]
 
+### 기하
+- [[삼각형의 넓이 | 삼각형의 넓이]]
+
+### 대수
+- [[행렬 OX | 행렬 OX]]
+
+### 미적
+- [[그래프 완전정복 1 - 기본 | 그래프 그리기 1]]
+- [[그래프 완전정복 2 - 사칙연산 | 그래프 그리기 2]]
+- [[그래프 완전정복 3 - 평행, 대칭, 주기, 확대 | 그래프 그리기 3]]
+- [[그래프 완전정복 4 - 절댓값 함수, 가우스 함수 | 그래프 그리기 4]]
+- [[그래프 완전정복 5 - 합성함수 | 그래프 그리기 5]]
+- [[그래프 완전정복 6 - 볼록함수 | 그래프 그리기 6]]
+- [[다항함수의 넓이 공식 | 다항 함수의 넓이 공식]]
+- [[로피탈 | 로피탈의 법칙(L'Hôpital's rule)]]
+- [[사인함수의 넓이 | 사인 함수의 넓이]]
+- [[삼차 함수 | 삼차함수(Cubic function)]]
+- [[연속 함수 | 연속 함수(Continuous)]]
+- [[우함수와 기함수 | 우함수와 기함수(Even & Odd function)]]
+- [[함수 | 일대일 함수]]
+- [[테일러 급수 | 테일러 급수(Taylor series)]]
+- [[편미분 | 편미분]]
+
+### 확률과 통계
+- [[완전 순열 | 교란(Derangement)]]
+- [[여러가지 순열 | 여러가지 순열]]
+- [[연속 확률 변수와 정규 분포 | 연속 확률 변수와 정규 분포]]
+- [[이산 확률 변수와 이항분포 | 이산 확률 변수와 이항분포]]
+- [[이항정리 | 이항정리(Binomial theorem)]]
+- [[조건부 확률 | 조건부 확률]]
+- [[통계적 추정 | 통계적 추정]]
+- [[함수의 개수 | 함수의 개수]]
+- [[확률 | 확률]]
+
 ## Memo
 
-### 다모다란
-- [[Data Update 1 for 2025_ The Draw (and Danger) of Data_translated | 2025(1) The Draw (and Danger) of Data]]
-- [[Data Update 2 for 2025_ The Party Continued (for US Equities)_translated | 2025(2) The Party Continued (for US Equities)]]
-- [[Data Update 3 for 2025_ The times they are a_changin!_translated | 2025(3) The times they are a'changin'!]]
-- [[Data Update 4 for 2025_ Interest Rates, Inflation and Central Banks!_translated | 2025(4) Interest Rates, Inflation and Central Banks!]]
+### Damodaran
+- [[Data Update 6 for 2025_ From Macro to Micro - The Hurdle Rate Question!_translated | 거시에서 미시로: 허들 레이트 질문!]]
+- [[Data Update 5 for 2025_ Its a small world, after all!_translated | 결국, 세상은 작다!]]
+- [[Data Update 4 for 2025_ Interest Rates, Inflation and Central Banks!_translated | 금리, 인플레이션 및 중앙 은행!]]
+- [[Data Update 1 for 2025_ The Draw (and Danger) of Data_translated | 데이터의 매력과 위험성]]
+- [[Data Update 2 for 2025_ The Party Continued (for US Equities)_translated | 미국 주식의 파티는 계속된다]]
+- [[Data Update 3 for 2025_ The times they are a_changin!_translated | 변혁의 시간]]
+- [[Data Update 7 for 2025_ The End Game in Business!_translated | 비즈니스의 종말 게임!]]
 - [[DeepSeek crashes the AI Party Story Break, Change or Shift?_translated | DeepSeek crashes the AI Party: Story Break, Change or Shift?]]
 
 ## Ray math
@@ -52,12 +69,12 @@
 - [[무리수인데 왜 정수비로 표현되나요 | 무리수인데 왜 정수비로 표현되나요]]
 - [[비버가 바쁠만 했네 | 비버가 바쁠만 했네]]
 - [[샤워할 때 왜 우리의 목소리가 더 좋게 들릴까 | 샤워할 때 왜 우리의 목소리가 더 좋게 들릴까]]
-- [[피타고라스 정리| 세상을 바꾼 방정식 1 - 피타고라스 정리]]
-- [[로그| 세상을 바꾼 방정식 2 - 로그]]
-- [[미분| 세상을 바꾼 방정식 3 - 미분]]
-- [[만유인력의 법칙| 세상을 바꾼 방정식 4 - 만유인력의 법칙]]
-- [[허수 i| 세상을 바꾼 방정식 5 -  허수 i]]
-- [[오일러 방정식| 세상을 바꾼 방정식 6 - 오일러 방정식]]
+- [[피타고라스 정리 | 세상을 바꾼 방정식 1 - 피타고라스 정리]]
+- [[로그 | 세상을 바꾼 방정식 2 - 로그]]
+- [[미분 | 세상을 바꾼 방정식 3 - 미분]]
+- [[만유인력의 법칙 | 세상을 바꾼 방정식 4 - 만유인력의 법칙]]
+- [[허수 i | 세상을 바꾼 방정식 5 -  허수 i]]
+- [[오일러 방정식 | 세상을 바꾼 방정식 6 - 오일러 방정식]]
 - [[소수를 분모로 갖는 분수의 반복되는 특별한 성질 | 소수를 분모로 갖는 분수의 반복되는 특별한 성질]]
 - [[어느새 부터 패턴은 안멋져 | 어느새 부터 패턴은 안멋져]]
 - [[이건 또 뭐야 ...999=-1 | 이건 또 뭐야 ...999=-1]]
