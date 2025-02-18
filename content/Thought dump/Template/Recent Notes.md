@@ -2,7 +2,7 @@
 - [[Notes | Notes]]
 - [[Template | {{title}}]]
 - [[Templater - Notes | Templater - Notes]]
-- [[무제 | 무제]]
+- [[오른손 좌표계와 향(Orientation)| 무제]]
 - [[쌍대공간 | 쌍대공간]]
 - [[Data Update 7 for 2025_ The End Game in Business!_translated | 비즈니스의 종말 게임!]]
 - [[Data Update 6 for 2025_ From Macro to Micro - The Hurdle Rate Question!_translated | 거시에서 미시로: 허들 레이트 질문!]]

@@ -99,7 +99,7 @@
 
 ### Linear Algebra
 - [[라그랑주 보간법(Lagrange Interpolation) | 라그랑주 보간법(Lagrange Interpolation)]]
-- [[무제 | 무제]]
+- [[오른손 좌표계와 향(Orientation)| 무제]]
 - [[소멸자 | 소멸자(Annihilator)]]
 - [[심프슨 공식(Simpson's rule) | 심프슨 공식(Simpson's rule)]]
 - [[쌍대공간 | 쌍대공간]]
