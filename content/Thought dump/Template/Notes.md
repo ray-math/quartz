@@ -1,6 +1,3 @@
-## Attachment
-- [[템플릿 | {{title}}]]
-
 ## Class
 
 ### 공통 수학
@@ -46,18 +43,6 @@
 - [[통계적 추정 | 통계적 추정]]
 - [[함수의 개수 | 함수의 개수]]
 - [[확률 | 확률]]
-
-## Memo
-
-### Damodaran
-- [[Data Update 6 for 2025_ From Macro to Micro - The Hurdle Rate Question!_translated | 거시에서 미시로: 허들 레이트 질문!]]
-- [[Data Update 5 for 2025_ Its a small world, after all!_translated | 결국, 세상은 작다!]]
-- [[Data Update 4 for 2025_ Interest Rates, Inflation and Central Banks!_translated | 금리, 인플레이션 및 중앙 은행!]]
-- [[Data Update 1 for 2025_ The Draw (and Danger) of Data_translated | 데이터의 매력과 위험성]]
-- [[Data Update 2 for 2025_ The Party Continued (for US Equities)_translated | 미국 주식의 파티는 계속된다]]
-- [[Data Update 3 for 2025_ The times they are a_changin!_translated | 변혁의 시간]]
-- [[Data Update 7 for 2025_ The End Game in Business!_translated | 비즈니스의 종말 게임!]]
-- [[DeepSeek crashes the AI Party Story Break, Change or Shift?_translated | DeepSeek crashes the AI Party: Story Break, Change or Shift?]]
 
 ## Ray math
 
@@ -121,4 +106,21 @@
 - [[행렬로 정의하는 대칭과 사영 | 행렬로 정의하는 대칭과 사영]]
 - [[행렬 곱의 정의 | 행렬의 곱은 왜 이렇게 이상하게 정의되어있을까?]]
 - [[행렬곱의 응용 | Leslie 행렬]]
+
+## Thought dump
+
+### Damodaran
+- [[Data Update 6 for 2025_ From Macro to Micro - The Hurdle Rate Question!_translated | 거시에서 미시로: 허들 레이트 질문!]]
+- [[Data Update 5 for 2025_ Its a small world, after all!_translated | 결국, 세상은 작다!]]
+- [[Data Update 4 for 2025_ Interest Rates, Inflation and Central Banks!_translated | 금리, 인플레이션 및 중앙 은행!]]
+- [[Data Update 1 for 2025_ The Draw (and Danger) of Data_translated | 데이터의 매력과 위험성]]
+- [[Data Update 2 for 2025_ The Party Continued (for US Equities)_translated | 미국 주식의 파티는 계속된다]]
+- [[Data Update 3 for 2025_ The times they are a_changin!_translated | 변혁의 시간]]
+- [[Data Update 7 for 2025_ The End Game in Business!_translated | 비즈니스의 종말 게임!]]
+- [[DeepSeek crashes the AI Party Story Break, Change or Shift?_translated | DeepSeek crashes the AI Party: Story Break, Change or Shift?]]
+
+### Template
+- [[Template | {{title}}]]
+- [[Templater - Notes | Templater - Notes]]
+- [[Templater - RecentNotes | Templater - RecentNotes]]
 
