@@ -10,7 +10,7 @@ tags:
 4. $A$가 역행렬이 존재하면 $(A^{-1})^{-1}=A$ 이다.[^4]
 5. $AB$가 역행렬이 존재하면 $A$, $B$ 모두 역행렬이 존재한다.[^5]
 6. $m \times n$ 행렬 $A$에 대하여$AB = I_m$인 $n \times m$ 행렬 $B$가 존재한다. (또는 $n \times m$ 행렬 $B$에 대하여 $AB=I_m$인 $m \times n$ 행렬 $A$가 존재한다) [^6]
-7. $\det(AB) = \det(A) \cdot \det(B)$[^7]
+7. 임의의 행렬 $A, B$에 대하여 $\det(AB) = \det(A) \cdot \det(B)$이다.[^7]
 
 [^1]: False, $A^2 =\begin{pmatrix}0 & 1 \\ 1 & 0\end{pmatrix} \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1\end{pmatrix} = I$
 [^2]: False, $A^2 = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix} \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix} = \begin{pmatrix} 0 & 0 \\ 0 & 0 \end{pmatrix} = O$
