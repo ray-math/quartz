@@ -31,7 +31,7 @@ tags:
 [^8]: True, 행렬식은 기하학적으로 부피 변화율을 나타내며, 행렬 $A$가 공간을 변화시키는 비율이 $\det(A)$, 행렬 $B$가 공간을 변화시키는 비율이 $\det(B)$라고 할 때, 연속적으로 변형하면 전체 변화율이 곱해지는 것이 자연스럽다. 이 성질로 부터 다음이 성립한다. $\det(A^{-1}) = \frac{1}{\det(A)}$
 [^9]: False, $\det(B) = -\det(A)$
 [^10]: False, $\det(B) = k \cdot \det(A)$
-[^12]: True
 [^11]: True
+[^12]: True
 [^13]: True, $A = P^{-1}BP$라 할 때, $A(v) = \lambda v \Rightarrow B(P(v)) =  PA(v) = P\lambda(v) = \lambda (P(v))$이므로 $B$의 고윳값도 $\lambda$이다. 따라서 닮음 행렬은 같은 특성다항식을 가진다.
 [^14]: False
