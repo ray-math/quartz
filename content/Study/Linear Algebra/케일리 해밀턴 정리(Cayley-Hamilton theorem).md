@@ -1,6 +1,6 @@
 ---
 title: 케일리 해밀턴 정리(Cayley-Hamilton theorem)
-date: 2025-02-51
+date: 2025-02-20
 tags:
 ---
 ## 케일리 해밀턴 정리(Cayley-Hamilton theorem)
