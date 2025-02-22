@@ -1,9 +1,9 @@
 ---
-title: 선형 연산자
+title: 선형 연산자(Linear operator)
 date: 2025-02-21
 tags:
 ---
-벡터 공간에서의 선형 변환은 다음과 같이 정의한다. 
+벡터 공간에서의 ==선형 변환(Linear transformation)==은 다음과 같이 정의한다. 
  $$
  T(v+w)= T(v)+ T(w), \quad T(cv)= cT(v)
  $$
@@ -14,12 +14,12 @@ tags:
  f(x)= ax, \quad f(x+y)= f(x)+ f(y), \quad f(cx)= c f(x)
  $$
 
-- 행렬 연산 
+- 행렬 덧셈 
  $$
  A(x + y)= Ax + Ay, \quad A(c x)= c(Ax)
  $$
 
-- 수열의 합 연산 
+- (수렴하는)수열의 합(급수) 연산[^2]
  $$
  \sum (a_n + b_n)= \sum a_n + \sum b_n, \quad \sum (c a_n)= c \sum a_n
  $$
@@ -44,20 +44,33 @@ $$
  $$
  I(f)= \int f(x)\,dx, \quad I(f+g)= I(f)+ I(g), \quad I(cf)= cI(f)
  $$
+
+- 벡터 덧셈
+
+$$
+(x+w, y+z) = (x,y)+ (w,z),  \quad  (cx,cy) = c(x,y)
+$$
+
 ---
 - 행렬의 대각합
+
 $$
 \text{tr}(A+B)= \text{tr}(A)+ \text{tr}(B), \quad \text{tr}(cA)= c \cdot \text{tr}(A)
 $$
 
 - 행렬의 전치
+
 $$
 (A+B)^T= A^T+ B^T, \quad (cA)^T= cA^T
 $$
 
 - 행렬식 (한 행 또는 한 열에 대해 선형성 성립)
  $$
- \det(A_1 + A_2)= \det(A_1)+ \det(A_2), \quad \det(c A)= c \det(A)
+ \det{\begin{bmatrix} u+w \\ v \end{bmatrix}}
+ = \det{\begin{bmatrix} u \\ v \end{bmatrix}} + \det{\begin{bmatrix} w \\ v \end{bmatrix}},
+ \quad
+ \det{\begin{bmatrix} cu \\ v \end{bmatrix}}
+ = c \cdot \det{\begin{bmatrix} u \\ v \end{bmatrix}}
  $$
  
  - 내적 (==첫번째 벡터에 대해== 선형성 성립)[^1]
@@ -104,3 +117,5 @@ $$
  $$
 
 [^1]: 두 번째 벡터에 대해서는 성립하지 않는다. $\langle x, cy \rangle$ = $\bar{c} \langle x, y \rangle$
+[^2]: 단, 더하는 순서가 바뀌면 수렴하지 않을 수 있다. 절대 수렴 $\sum |a_n | < \infty$인 경우에는 더하는 순서가 바뀌어도 수렴한다. 그러나 교대급수인 $\sum (-1)^n \frac{1}{n}$)의 경우에는 항들의 순서를 바꾸면 급수의 합이 변할 수 있습니다. 심지어 어떤 방식으로 재배열(rearrangement)하느냐에 따라 급수의 합이 다르게 나올 수도 있습니다(리만 재배열 정리, Riemann Rearrangement Theorem). 
+	
