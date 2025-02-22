@@ -213,4 +213,3 @@ $$
 [^5]: $\left| \frac{z}{w} \right|^2 = \left| z w^{-1} \right|^2 = |z|^2 |w^{-1}|^2$이므로, $\left|\frac{z}{w} \right| = \frac{|z|}{|w|}$
 [^6]: 먼저 임의의 복소수 $x = a + bi$에 대해, $x + \overline{x} = (a+bi)+ (a-bi)= 2a \leq 2\sqrt{a^2 + b^2} = 2|x|$이다. 이제 $x = w\overline{z}$로 두면, $w\overline{z} + \overline{w}z \leq 2|w|\cdot|z|$이다. 따라서, $|z + w|^2 = (z + w)(\overline{z} + \overline{w})= z\overline{z} + w\overline{z} + \overline{w}z + w\overline{w}\leq |z|^2 + 2|z||w| + |w|^2 = (|z| + |w|)^2$이므로, $|z + w| \leq |z| + |w|$이다.
 [^7]: $|z| = |(z + w)- w| \leq |z + w| + |-w| = |z + w| + |w|$이므로, $|z| - |w| \leq |z + w|$이다.
-
