@@ -13,7 +13,7 @@ tags:
 무한 체 $F$에서 서로 다른 스칼라 $c_0, c_1, \dots, c_n$가 주어졌다고 가정해보겠습니다. 이때, 다음과 같이 정의된 다항식 $f_0(x), f_1(x), \dots, f_n(x)$을 **라그랑주 다항식(Lagrange polynomials)이라 부릅니다. 각 $f_i(x)$가 차수가 $n$인 다항식이며, 따라서 $P_n(F)$에 속합니다.
 
 $$
-f_i(x) = \frac{(x - c_0) \cdots (x - c_{i-1})(x - c_{i+1}) \cdots (x - c_n)}{(c_i - c_0) \cdots (c_i - c_{i-1})(c_i - c_{i+1}) \cdots (c_i - c_n)} = \prod_{\substack{k=0 \\ k \neq i}}^{n \frac{x - c_k}{c_i - c_{k}}}
+f_i(x) = \frac{(x - c_0) \cdots (x - c_{i-1})(x - c_{i+1}) \cdots (x - c_n)}{(c_i - c_0) \cdots (c_i - c_{i-1})(c_i - c_{i+1}) \cdots (c_i - c_n)} = \prod_{\substack{k=0 \\ k \neq i}}^{n} \frac{x - c_k}{c_i - c_{k}}
 $$
 이때, $f_i(x)$는 다항식 함수 $f_i : F \to F$이며,
 $$
