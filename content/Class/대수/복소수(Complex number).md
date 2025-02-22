@@ -158,7 +158,7 @@ $$
 ## 복소수의 기하학적 표현 (Geometric Representation of Complex Numbers) 
 복소수는 대수적 표현뿐만 아니라 기하학적 표현도 가질 수 있다. 즉, 복소수 $z = a + bi$는 복소수 평면(complex plane)에서 한 점으로 표현할 수 있다.
 
-![[CleanShot 2025-02-21 at 17.53.51@2x.png|600]]
+![[CleanShot 2025-02-21 at 17.53.51@2x.png]]
 
 - 복소수의 실수부(real part)$a$는 실수 축(real axis)에서의 좌표이다.
 - 복소수의 허수부(imaginary part)$b$는 허수 축(imaginary axis)에서의 좌표이다.
