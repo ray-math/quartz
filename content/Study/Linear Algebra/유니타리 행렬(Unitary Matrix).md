@@ -64,7 +64,6 @@ $$
 
 각 열벡터의 노름이 1이고,  $i \neq j$일 때, $\langle u_i, u_j \rangle = 0$이므로 열벡터들은 서로 직교한다. 따라서, 유니타리 행렬의 열벡터(행벡터)는 정규직교 기저를 이룬다.
 
-
 ## $\det(A^*) = \overline{\det(A)}$
 임의의 복소수 정사각행렬 $A$에 대해 켤레 전치(conjugate transpose, Hermitian transpose)를 취한 행렬의 행렬식(determinant)은 원래 행렬식의 켤레 복소수와 같다.
 
