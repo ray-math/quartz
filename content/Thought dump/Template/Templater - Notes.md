@@ -1,5 +1,3 @@
-
-
 <%*
 const rootFolder = "content"; // Vault 내부 상대 경로
 const outputPath = `${rootFolder}/Thought dump/Template/Notes.md`; // 저장할 파일 경로

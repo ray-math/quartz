@@ -19,7 +19,7 @@ tags:
  A(x + y)= Ax + Ay, \quad A(c x)= c(Ax)
  $$
 
-- (수렴하는)수열의 합(급수) 연산[^2]
+- (수렴하는)수열의 합(급수) 연산[^1]
  $$
  \sum (a_n + b_n)= \sum a_n + \sum b_n, \quad \sum (c a_n)= c \sum a_n
  $$
@@ -52,6 +52,7 @@ $$
 $$
 
 ---
+
 - 행렬의 대각합
 
 $$
@@ -73,7 +74,7 @@ $$
  = c \cdot \det{\begin{bmatrix} u \\ v \end{bmatrix}}
  $$
  
- - 내적 (==첫번째 벡터에 대해== 선형성 성립)[^1]
+ - 내적 (==첫번째 벡터에 대해== 선형성 성립)[^2]
  $$ 
  \langle u+v, w \rangle = \langle u, w \rangle + \langle v, w \rangle, \quad \langle c u, w \rangle = c \langle u, w \rangle
  $$
@@ -116,6 +117,5 @@ $$
  G_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
  $$
 
-[^1]: 두 번째 벡터에 대해서는 성립하지 않는다. $\langle x, cy \rangle$ = $\bar{c} \langle x, y \rangle$
-[^2]: 단, 더하는 순서가 바뀌면 수렴하지 않을 수 있다. 절대 수렴 $\sum |a_n | < \infty$인 경우에는 더하는 순서가 바뀌어도 수렴한다. 그러나 교대급수인 $\sum (-1)^n \frac{1}{n}$)의 경우에는 항들의 순서를 바꾸면 급수의 합이 변할 수 있습니다. 심지어 어떤 방식으로 재배열(rearrangement)하느냐에 따라 급수의 합이 다르게 나올 수도 있습니다(리만 재배열 정리, Riemann Rearrangement Theorem). 
-	
+[^1]: 단, 더하는 순서가 바뀌면 수렴하지 않을 수 있다. 절대 수렴 $\sum |a_n | < \infty$인 경우에는 더하는 순서가 바뀌어도 수렴한다. 절대 수렴하지 않는다면, 리만 재배열 정리(Riemann Rearrangement Theorem)에 의해 어떤 방식으로 재배열(rearrangement)하느냐에 따라 급수의 합이 다르게 나올 수도 있다.
+[^2]: 두 번째 벡터에 대해서는 성립하지 않는다. $\langle x, cy \rangle$ = $\bar{c} \langle x, y \rangle$

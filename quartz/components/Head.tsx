@@ -165,6 +165,9 @@ export default (() => {
         {/* ✅ Google Search Console 메타 태그 */}
         <meta name="google-site-verification" content="RjR4E2c1MRLgp0_TjyEVtmP48GjyYdHevuyk_1GIY2s" />
 
+        {/* ✅ Google Search Console 메타 태그 */}
+        <meta name="google-site-verification" content="OQW_nPCMFrMw6QhYg31bSQMGHHoLoM_lsB4IkFZ8O3M" />
+        
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />

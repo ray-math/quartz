@@ -12,9 +12,13 @@
 
 ### 기하
 - [[삼각형의 넓이 | 삼각형의 넓이]]
+- [[알아두면 좋은 기하 성질 | 알아두면 좋은 기하 성질]]
 
 ### 대수
-- [[행렬 OX | 행렬 OX]]
+- [[복소수(Complex number) | 복소수(Complex number)]]
+- [[삼각 부등식, 코시 슈바르츠 부등식 | 삼각 부등식(triangle inequality)과 코시 슈바르츠 부등식(Cauchy-Schwarz inequality)]]
+- [[선형 연산(Linear operator) | 선형 연산자(Linear operator)]]
+- [[행렬 OX | 행렬 참, 거짓 문제]]
 
 ### 미적
 - [[그래프 완전정복 1 - 기본 | 그래프 그리기 1]]
@@ -98,29 +102,25 @@
 ## Study
 
 ### Linear Algebra
+- [[동차 선형 미분 방정식 | 동차 선형 미분 방정식 (Homogeneous Linear Differential Equations with Constant Coefficients)]]
 - [[라그랑주 보간법(Lagrange Interpolation) | 라그랑주 보간법(Lagrange Interpolation)]]
-- [[오른손 좌표계와 향(Orientation)| 무제]]
 - [[소멸자 | 소멸자(Annihilator)]]
 - [[심프슨 공식(Simpson's rule) | 심프슨 공식(Simpson's rule)]]
 - [[쌍대공간 | 쌍대공간]]
+- [[오른손 좌표계와 향(Orientation) | 오른손 좌표계와 향(Orientation)]]
+- [[유니타리 행렬(Unitary Matrix) | 유니타리 행렬(Unitary Matrix)]]
+- [[케일리 해밀턴 정리(Cayley-Hamilton theorem) | 케일리 해밀턴 정리(Cayley-Hamilton theorem)]]
+- [[켤레 전치(Conjugate Transpose)행렬 | 켤레 전치(Conjugate Transpose, Hermitian Transpose) 행렬]]
 - [[행렬로 정의하는 대칭과 사영 | 행렬로 정의하는 대칭과 사영]]
 - [[행렬 곱의 정의 | 행렬의 곱은 왜 이렇게 이상하게 정의되어있을까?]]
+- [[행렬이 가환(Commutativity)이기 위한 충분조건 | 행렬이 가환(Commutativity)이기 위한 충분조건]]
 - [[행렬곱의 응용 | Leslie 행렬]]
 
 ## Thought dump
 
-### Damodaran
-- [[Data Update 6 for 2025_ From Macro to Micro - The Hurdle Rate Question!_translated | 거시에서 미시로: 허들 레이트 질문!]]
-- [[Data Update 5 for 2025_ Its a small world, after all!_translated | 결국, 세상은 작다!]]
-- [[Data Update 4 for 2025_ Interest Rates, Inflation and Central Banks!_translated | 금리, 인플레이션 및 중앙 은행!]]
-- [[Data Update 1 for 2025_ The Draw (and Danger) of Data_translated | 데이터의 매력과 위험성]]
-- [[Data Update 2 for 2025_ The Party Continued (for US Equities)_translated | 미국 주식의 파티는 계속된다]]
-- [[Data Update 3 for 2025_ The times they are a_changin!_translated | 변혁의 시간]]
-- [[Data Update 7 for 2025_ The End Game in Business!_translated | 비즈니스의 종말 게임!]]
-- [[DeepSeek crashes the AI Party Story Break, Change or Shift?_translated | DeepSeek crashes the AI Party: Story Break, Change or Shift?]]
-
 ### Template
-- [[Template | {{title}}]]
+- [[Notes | Notes]]
+- [[Recent Notes | Recent Notes]]
 - [[Templater - Notes | Templater - Notes]]
 - [[Templater - RecentNotes | Templater - RecentNotes]]
 
