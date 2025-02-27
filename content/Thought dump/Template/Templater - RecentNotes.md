@@ -1,3 +1,5 @@
+
+
 <%*
 const rootFolder = "content"; // Vault 내부 상대 경로
 const outputPath = `${rootFolder}/Thought dump/Template/Recent Notes.md`; // 저장할 파일명
@@ -8,10 +10,6 @@ async function generateRecentNotes() {
         // 📂 `content` 폴더가 없으면 생성
         if (!app.vault.getAbstractFileByPath(rootFolder)) {
             await app.vault.createFolder(rootFolder);
-
-
-
-
         }
 
         // **1️⃣ 모든 Markdown 파일 가져오기 (루트 폴더 제외)**
