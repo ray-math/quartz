@@ -109,6 +109,7 @@
 - [[쌍대공간 | 쌍대공간]]
 - [[오른손 좌표계와 향(Orientation) | 오른손 좌표계와 향(Orientation)]]
 - [[유니타리 행렬(Unitary Matrix) | 유니타리 행렬(Unitary Matrix)]]
+- [[최소 제곱 근사(Least Squares Approximation) | 최소제곱법(Least Squares Approximation)]]
 - [[케일리 해밀턴 정리(Cayley-Hamilton theorem) | 케일리 해밀턴 정리(Cayley-Hamilton theorem)]]
 - [[켤레 전치(Conjugate Transpose)행렬 | 켤레 전치(Conjugate Transpose, Hermitian Transpose) 행렬]]
 - [[행렬로 정의하는 대칭과 사영 | 행렬로 정의하는 대칭과 사영]]
