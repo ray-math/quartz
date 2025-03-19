@@ -102,7 +102,11 @@
 
 ## Study
 
+### Dump
+- [[카탈란 수(Catalan Number)란? | 카탈란 수(Catalan Number)란?]]
+
 ### Linear Algebra
+- [[내적 보존, 노름 보존 | 내적 보존, 노름 보존]]
 - [[동차 선형 미분 방정식 | 동차 선형 미분 방정식 (Homogeneous Linear Differential Equations with Constant Coefficients)]]
 - [[라그랑주 보간법(Lagrange Interpolation) | 라그랑주 보간법(Lagrange Interpolation)]]
 - [[선형 방정식의 최소해(Minimal Solution) | 선형 방정식의 최소해(Minimal Solution)]]
@@ -110,8 +114,10 @@
 - [[심프슨 공식(Simpson's rule) | 심프슨 공식(Simpson's rule)]]
 - [[쌍대공간 | 쌍대공간]]
 - [[오른손 좌표계와 향(Orientation) | 오른손 좌표계와 향(Orientation)]]
+- [[원뿔곡선과 주축정리 | 원뿔곡선과 주축정리]]
 - [[유니타리 행렬(Unitary Matrix) | 유니타리 행렬(Unitary Matrix)]]
 - [[정규연산자 | 정규연산자]]
+- [[주성분 분석 (Principal Component Analysis) | 주성분 분석 (Principal Component Analysis)]]
 - [[최소 다항식 | 최소 다항식(Minimal Polynomial)]]
 - [[최소 제곱 근사(Least Squares Approximation) | 최소제곱법(Least Squares Approximation)]]
 - [[케일리 해밀턴 정리(Cayley-Hamilton theorem) | 케일리 해밀턴 정리(Cayley-Hamilton theorem)]]
