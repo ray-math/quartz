@@ -103,6 +103,8 @@
 ## Study
 
 ### Dump
+- [[양의 정부호(Positive Definite, PD)와 양의 준정부호(Positive Semidefinite, PSD) | 양의 정부호(Positive Definite, PD)와 양의 준정부호(Positive Semidefinite, PSD)]]
+- [[유한차원에서 전단사 | 유한차원에서 전단사]]
 - [[카탈란 수(Catalan Number)란? | 카탈란 수(Catalan Number)란?]]
 
 ### Linear Algebra
@@ -115,6 +117,7 @@
 - [[쌍대공간 | 쌍대공간]]
 - [[오른손 좌표계와 향(Orientation) | 오른손 좌표계와 향(Orientation)]]
 - [[원뿔곡선과 주축정리 | 원뿔곡선과 주축정리]]
+- [[유니타리 동치(unitary equivalence) 판별법 | 유니타리 동치(unitary equivalence) 판별법]]
 - [[유니타리 행렬(Unitary Matrix) | 유니타리 행렬(Unitary Matrix)]]
 - [[정규연산자 | 정규연산자]]
 - [[주성분 분석 (Principal Component Analysis) | 주성분 분석 (Principal Component Analysis)]]
