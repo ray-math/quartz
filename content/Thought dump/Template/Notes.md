@@ -38,6 +38,17 @@
 - [[테일러 급수 | 테일러 급수(Taylor series)]]
 - [[편미분 | 편미분]]
 
+### 영재
+- [[나머지 정리 | 나머지 정리]]
+- [[소수(Prime Numbers) | 소수(Prime Numbers)]]
+- [[수학적 귀납법 | 수학적 귀납법]]
+- [[약수(divisor)와 배수(multiple) | 약수(divisor)와 배수(multiple)]]
+- [[양의 약수의 성질 | 양의 약수의 성질]]
+- [[유클리드 호제법(Euclidean Algorithm) | 유클리드 호제법(Euclidean Algorithm)]]
+- [[정수론(Number Theory) | 정수론(Number Theory)]]
+- [[최대공약수와 최소공배수 | 최대공약수와 최소공배수]]
+- [[합동식 | 합동식]]
+
 ### 확률과 통계
 - [[완전 순열 | 교란(Derangement)]]
 - [[여러가지 순열 | 여러가지 순열]]
@@ -113,6 +124,7 @@
 - [[라그랑주 보간법(Lagrange Interpolation) | 라그랑주 보간법(Lagrange Interpolation)]]
 - [[선형 방정식의 최소해(Minimal Solution) | 선형 방정식의 최소해(Minimal Solution)]]
 - [[소멸자 | 소멸자(Annihilator)]]
+- [[스펙트럼 정리 활용 | 스펙트럼 정리 활용]]
 - [[심프슨 공식(Simpson's rule) | 심프슨 공식(Simpson's rule)]]
 - [[쌍대공간 | 쌍대공간]]
 - [[오른손 좌표계와 향(Orientation) | 오른손 좌표계와 향(Orientation)]]
