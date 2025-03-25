@@ -44,6 +44,7 @@
 - [[수학적 귀납법 | 수학적 귀납법]]
 - [[약수(divisor)와 배수(multiple) | 약수(divisor)와 배수(multiple)]]
 - [[양의 약수의 성질 | 양의 약수의 성질]]
+- [[오일러 함수와 오일러 정리 | 오일러 함수와 오일러 정리]]
 - [[유클리드 호제법(Euclidean Algorithm) | 유클리드 호제법(Euclidean Algorithm)]]
 - [[정수론(Number Theory) | 정수론(Number Theory)]]
 - [[최대공약수와 최소공배수 | 최대공약수와 최소공배수]]
