@@ -40,7 +40,6 @@ $f : A \rightarrow B$, $A_i \subset A$, $B_i \subset B$ 일 때,  ($f^{-1}$ 를 
 20. $f(A_0 - A_1) \supseteq f(A_0) - f(A_1)$ [^19]
 21. 14, 15, 18은 임의의 합집합, 교집합에도 성립하는가? [^20]
 
-
 [^1]: True, $g(f(x_1)) = g(f(x_2)) \Rightarrow f(x_1) = f(x_2) \Rightarrow x_1 = x_2$
 [^2]: True, $g(f(x_1)) = g(f(x_2)) \Rightarrow x_1 = x_2$
 [^3]: False, $f(1)=1, g(1)=1, g(2)=1$이면 $g \circ f$는 일대일 함수이지만 $g$는 일대일 함수가 아니다.
