@@ -153,7 +153,5 @@
 
 ### Template
 - [[Notes | Notes]]
-- [[Recent Notes | Recent Notes]]
 - [[Templater - Notes | Templater - Notes]]
-- [[Templater - RecentNotes | Templater - RecentNotes]]
 

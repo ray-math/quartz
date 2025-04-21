@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "raymath.pages.dev",
-    ignorePatterns: ["private", "Templater - Notes.md", "Templater - RecentNotes.md", ".obsidian"],
+    ignorePatterns: ["private", "Templater - Notes.md", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
