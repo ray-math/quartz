@@ -1,3 +1,9 @@
+---
+title: 
+date: 2025-04-23
+tags: 
+---
+
 ## T-순환기저(cyclic basis)
 
 $v$로 생성되는 부분공간 $\mathcal{K}_n(T,v)$를 생각해봅시다.
