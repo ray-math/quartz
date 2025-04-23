@@ -135,6 +135,7 @@
 - [[유니타리 동치(unitary equivalence) 판별법 | 유니타리 동치(unitary equivalence) 판별법]]
 - [[유니타리 행렬(Unitary Matrix) | 유니타리 행렬(Unitary Matrix)]]
 - [[정규연산자 | 정규연산자]]
+- [[조르당 표준형 구하기 | 조르당 표준형 구하기]]
 - [[주성분 분석 (Principal Component Analysis) | 주성분 분석 (Principal Component Analysis)]]
 - [[최소 다항식 | 최소 다항식(Minimal Polynomial)]]
 - [[최소 제곱 근사(Least Squares Approximation) | 최소제곱법(Least Squares Approximation)]]
