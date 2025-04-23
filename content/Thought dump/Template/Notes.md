@@ -149,7 +149,7 @@
 ### Topology
 - [[순서 정리, 정렬 정리 | 순서 정리, 정렬 정리]]
 - [[포화 집합(Saturated Set) | 포화 집합(Saturated Set)]]
-- [[Connected | Connected]]
+- [[연걸성 (Connected)| Connected]]
 
 ## Thought dump
 
