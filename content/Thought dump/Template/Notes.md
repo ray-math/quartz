@@ -123,6 +123,7 @@
 
 ### Linear Algebra
 - [[내적 보존, 노름 보존 | 내적 보존, 노름 보존]]
+- [[동반행렬(companion matrix) | 동반행렬(companion matrix)]]
 - [[동차 선형 미분 방정식 | 동차 선형 미분 방정식 (Homogeneous Linear Differential Equations with Constant Coefficients)]]
 - [[라그랑주 보간법(Lagrange Interpolation) | 라그랑주 보간법(Lagrange Interpolation)]]
 - [[선형 방정식의 최소해(Minimal Solution) | 선형 방정식의 최소해(Minimal Solution)]]
@@ -147,9 +148,12 @@
 - [[행렬곱의 응용 | Leslie 행렬]]
 
 ### Topology
+- [[국소연결 (locally connected) | 국소연결 (locally connected)]]
+- [[근방(Neighborhood) | 근방(Neighborhood)]]
 - [[순서 정리, 정렬 정리 | 순서 정리, 정렬 정리]]
+- [[연걸성 (Connected) | 연걸성 (Connected)]]
+- [[위상수학자의 사인곡선 | 위상수학자의 사인곡선]]
 - [[포화 집합(Saturated Set) | 포화 집합(Saturated Set)]]
-- [[연걸성 (Connected)| Connected]]
 
 ## Thought dump
 
