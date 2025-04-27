@@ -153,6 +153,7 @@
 - [[순서 정리, 정렬 정리 | 순서 정리, 정렬 정리]]
 - [[연걸성 (Connected) | 연걸성 (Connected)]]
 - [[위상수학자의 사인곡선 | 위상수학자의 사인곡선]]
+- [[유한 교집합 성질 (Finite Intersection Property, FIP) | 유한 교집합 성질 (Finite Intersection Property, FIP)]]
 - [[포화 집합(Saturated Set) | 포화 집합(Saturated Set)]]
 
 ## Thought dump
