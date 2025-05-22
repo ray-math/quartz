@@ -15,7 +15,7 @@
 - [[알아두면 좋은 기하 성질 | 알아두면 좋은 기하 성질]]
 
 ### 대수
-- [[무제 | 무제]]
+- [[locally compact| 무제]]
 - [[복소수(Complex number) | 복소수(Complex number)]]
 - [[삼각 부등식, 코시 슈바르츠 부등식 | 삼각 부등식(triangle inequality)과 코시 슈바르츠 부등식(Cauchy-Schwarz inequality)]]
 - [[선형 연산(Linear operator) | 선형 연산자(Linear operator)]]
