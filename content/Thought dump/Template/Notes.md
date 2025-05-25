@@ -15,7 +15,7 @@
 - [[알아두면 좋은 기하 성질 | 알아두면 좋은 기하 성질]]
 
 ### 대수
-- [[locally compact| 무제]]
+- [[무제 | 무제]]
 - [[복소수(Complex number) | 복소수(Complex number)]]
 - [[삼각 부등식, 코시 슈바르츠 부등식 | 삼각 부등식(triangle inequality)과 코시 슈바르츠 부등식(Cauchy-Schwarz inequality)]]
 - [[선형 연산(Linear operator) | 선형 연산자(Linear operator)]]
@@ -29,6 +29,7 @@
 - [[그래프 완전정복 5 - 합성함수 | 그래프 그리기 5]]
 - [[그래프 완전정복 6 - 볼록함수 | 그래프 그리기 6]]
 - [[다항함수의 넓이 공식 | 다항 함수의 넓이 공식]]
+- [[등차수열(Arithmetic sequence) | 등차수열(Arithmetic sequence)]]
 - [[로피탈 | 로피탈의 법칙(L'Hôpital's rule)]]
 - [[사인함수의 넓이 | 사인 함수의 넓이]]
 - [[삼각함수의 각 변환 | 삼각함수의 각 변환]]
@@ -156,6 +157,8 @@
 - [[위상수학자의 사인곡선 | 위상수학자의 사인곡선]]
 - [[유한 교집합 성질 (Finite Intersection Property, FIP) | 유한 교집합 성질 (Finite Intersection Property, FIP)]]
 - [[포화 집합(Saturated Set) | 포화 집합(Saturated Set)]]
+- [[limit point compactness | limit point compactness]]
+- [[locally compact | locally compact]]
 
 ## Thought dump
 
