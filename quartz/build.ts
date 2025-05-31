@@ -20,7 +20,8 @@ import { Mutex } from "async-mutex"
 import { getStaticResourcesFromPlugins } from "./plugins"
 import { randomIdNonSecure } from "./util/random"
 import { ChangeEvent } from "./plugins/types"
-import { minimatch } from "minimatch"
+import minimatchPkg from "minimatch"
+const { minimatch } = minimatchPkg
 
 type ContentMap = Map<
   FilePath,
