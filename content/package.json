@@ -1,0 +1,7 @@
+{
+  "name": "quartz-content",
+  "private": true,
+  "engines": {
+    "node": ">=14"
+  }
+}
