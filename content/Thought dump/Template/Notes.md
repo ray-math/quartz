@@ -15,7 +15,7 @@
 - [[알아두면 좋은 기하 성질 | 알아두면 좋은 기하 성질]]
 
 ### 대수
-- [[무제 | 무제]]
+- [[content/Class/대수/무제| 무제]]
 - [[복소수(Complex number) | 복소수(Complex number)]]
 - [[삼각 부등식, 코시 슈바르츠 부등식 | 삼각 부등식(triangle inequality)과 코시 슈바르츠 부등식(Cauchy-Schwarz inequality)]]
 - [[선형 연산(Linear operator) | 선형 연산자(Linear operator)]]
@@ -127,7 +127,7 @@
 - [[내적 보존, 노름 보존 | 내적 보존, 노름 보존]]
 - [[동반행렬(companion matrix) | 동반행렬(companion matrix)]]
 - [[동차 선형 미분 방정식 | 동차 선형 미분 방정식 (Homogeneous Linear Differential Equations with Constant Coefficients)]]
-- [[라그랑주 보간법(Lagrange Interpolation) | 라그랑주 보간법(Lagrange Interpolation)]]
+- [[라그랑주 보간법(Lagrange Interpolation) 1| 라그랑주 보간법(Lagrange Interpolation)]]
 - [[선형 방정식의 최소해(Minimal Solution) | 선형 방정식의 최소해(Minimal Solution)]]
 - [[소멸자 | 소멸자(Annihilator)]]
 - [[스펙트럼 정리 활용 | 스펙트럼 정리 활용]]
@@ -147,7 +147,7 @@
 - [[행렬로 정의하는 대칭과 사영 | 행렬로 정의하는 대칭과 사영]]
 - [[행렬 곱의 정의 | 행렬의 곱은 왜 이렇게 이상하게 정의되어있을까?]]
 - [[행렬이 가환(Commutativity)이기 위한 충분조건 | 행렬이 가환(Commutativity)이기 위한 충분조건]]
-- [[행렬곱의 응용 | Leslie 행렬]]
+- [[행렬곱의 응용 1| Leslie 행렬]]
 
 ### Topology
 - [[국소연결 (locally connected) | 국소연결 (locally connected)]]
