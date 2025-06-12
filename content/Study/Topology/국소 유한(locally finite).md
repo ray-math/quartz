@@ -5,7 +5,9 @@ tags:
 ---
 ## 국소 유한 (Locally Finite)
 
-어떤 위상 공간 $(X, \mathcal{T})$의 부분 집합들의 모음 $\mathcal{A} = \{A_i\}_{i \in I}$이 국소 유한이라는 것은,
+어떤 위상 공간 $(X, \mathcal{T})$의 부분
+
+ 집합들의 모음 $\mathcal{A} = \{A_i\}_{i \in I}$이 국소 유한이라는 것은,
 
 > 공간 $X$의 모든 점 $x$에 대해, $x$를 포함하는 어떤 열린 근방(open neighborhood) $U_x$가 존재하여, 이 $U_x$가 $\mathcal{A}$의 원소들 중 유한개하고만 만난다.
 

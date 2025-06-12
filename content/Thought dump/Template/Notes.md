@@ -15,7 +15,7 @@
 - [[알아두면 좋은 기하 성질 | 알아두면 좋은 기하 성질]]
 
 ### 대수
-- [[content/Class/대수/무제| 무제]]
+- [[무제 | 무제]]
 - [[복소수(Complex number) | 복소수(Complex number)]]
 - [[삼각 부등식, 코시 슈바르츠 부등식 | 삼각 부등식(triangle inequality)과 코시 슈바르츠 부등식(Cauchy-Schwarz inequality)]]
 - [[선형 연산(Linear operator) | 선형 연산자(Linear operator)]]
@@ -34,6 +34,7 @@
 - [[사인함수의 넓이 | 사인 함수의 넓이]]
 - [[삼각함수의 각 변환 | 삼각함수의 각 변환]]
 - [[삼차 함수 | 삼차함수(Cubic function)]]
+- [[수열의 귀납적 정의 | 수열의 귀납적 정의]]
 - [[연속 함수 | 연속 함수(Continuous)]]
 - [[우함수와 기함수 | 우함수와 기함수(Even & Odd function)]]
 - [[함수 OX | 일대일 함수]]
@@ -124,10 +125,12 @@
 - [[카탈란 수(Catalan Number)란? | 카탈란 수(Catalan Number)란?]]
 
 ### Linear Algebra
+- [[$y=mx$에 대한 대칭과 사영 | $y=mx$에 대한 대칭과 사영]]
 - [[내적 보존, 노름 보존 | 내적 보존, 노름 보존]]
 - [[동반행렬(companion matrix) | 동반행렬(companion matrix)]]
 - [[동차 선형 미분 방정식 | 동차 선형 미분 방정식 (Homogeneous Linear Differential Equations with Constant Coefficients)]]
-- [[라그랑주 보간법(Lagrange Interpolation) 1| 라그랑주 보간법(Lagrange Interpolation)]]
+- [[라그랑주 보간법(Lagrange Interpolation) | 라그랑주 보간법(Lagrange Interpolation)]]
+- [[라그랑주 보간법(Lagrange Interpolation) 1 | 라그랑주 보간법(Lagrange Interpolation) 1]]
 - [[선형 방정식의 최소해(Minimal Solution) | 선형 방정식의 최소해(Minimal Solution)]]
 - [[소멸자 | 소멸자(Annihilator)]]
 - [[스펙트럼 정리 활용 | 스펙트럼 정리 활용]]
@@ -145,13 +148,17 @@
 - [[케일리 해밀턴 정리(Cayley-Hamilton theorem) | 케일리 해밀턴 정리(Cayley-Hamilton theorem)]]
 - [[켤레 전치(Conjugate Transpose)행렬 | 켤레 전치(Conjugate Transpose, Hermitian Transpose) 행렬]]
 - [[행렬로 정의하는 대칭과 사영 | 행렬로 정의하는 대칭과 사영]]
+- [[행렬의 곱? | 행렬의 곱?]]
 - [[행렬 곱의 정의 | 행렬의 곱은 왜 이렇게 이상하게 정의되어있을까?]]
 - [[행렬이 가환(Commutativity)이기 위한 충분조건 | 행렬이 가환(Commutativity)이기 위한 충분조건]]
-- [[행렬곱의 응용 1| Leslie 행렬]]
+- [[행렬곱의 응용 | Leslie 행렬]]
+- [[행렬곱의 응용 1 | Online Linear Algebra Applications]]
 
 ### Topology
+- [[국소 유한(locally finite) | 국소 유한(locally finite)]]
 - [[국소연결 (locally connected) | 국소연결 (locally connected)]]
 - [[근방(Neighborhood) | 근방(Neighborhood)]]
+- [[나가타-스미르노프 거리화 정리 | 나가타-스미르노프 거리화 정리]]
 - [[분리공리 (Seperation Axiom) | 분리공리 (Seperation Axiom)]]
 - [[순서 정리, 정렬 정리 | 순서 정리, 정렬 정리]]
 - [[연걸성 (Connected) | 연걸성 (Connected)]]
