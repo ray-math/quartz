@@ -15,7 +15,7 @@
 - [[알아두면 좋은 기하 성질 | 알아두면 좋은 기하 성질]]
 
 ### 대수
-- [[무제 | 무제]]
+- [[content/Class/대수/무제| 무제]]
 - [[복소수(Complex number) | 복소수(Complex number)]]
 - [[삼각 부등식, 코시 슈바르츠 부등식 | 삼각 부등식(triangle inequality)과 코시 슈바르츠 부등식(Cauchy-Schwarz inequality)]]
 - [[선형 연산(Linear operator) | 선형 연산자(Linear operator)]]
@@ -29,12 +29,12 @@
 - [[그래프 완전정복 5 - 합성함수 | 그래프 그리기 5]]
 - [[그래프 완전정복 6 - 볼록함수 | 그래프 그리기 6]]
 - [[다항함수의 넓이 공식 | 다항 함수의 넓이 공식]]
-- [[등차수열(Arithmetic sequence) | 등차수열(Arithmetic sequence)]]
+- [[등차수열| 등차수열(Arithmetic sequence)]]
 - [[로피탈 | 로피탈의 법칙(L'Hôpital's rule)]]
 - [[사인함수의 넓이 | 사인 함수의 넓이]]
 - [[삼각함수의 각 변환 | 삼각함수의 각 변환]]
 - [[삼차 함수 | 삼차함수(Cubic function)]]
-- [[수열의 귀납적 정의(Recursive Definition of a Sequence)| 수열의 귀납적 정의]]
+- [[수열의 귀납적 정의| 수열의 귀납적 정의]]
 - [[연속 함수 | 연속 함수(Continuous)]]
 - [[우함수와 기함수 | 우함수와 기함수(Even & Odd function)]]
 - [[함수 OX | 일대일 함수]]
