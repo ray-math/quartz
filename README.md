@@ -1,5 +1,10 @@
-## What is cooler than magic? Math!
+# Ray Math - Quartz Blog
 
-Ray 수학에 오신 것을 환영합니다.
+이 저장소는 Quartz 4를 사용한 Ray Math 블로그입니다.
 
-[raymath.pages.dev](https://raymath.pages.dev)
+## 배포 브랜치
+
+- `v4`: 배포용 브랜치 (Cloudflare Pages에서 사용)
+- `main`: 빈 브랜치
+
+모든 작업은 `v4` 브랜치에서 진행됩니다.
