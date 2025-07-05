@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Ray</title>
+      <link>https://raymath.pages.dev</link>
+      <description>Last 10 notes on Ray</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>3-2. The Deﬁnition of the Gauss Map and Its Fundamental Properties</title>
+    <link>https://raymath.pages.dev/Study/Differential-Geometry/3-2.-The-De%EF%AC%81nition-of-the-Gauss-Map-and-Its-Fundamental-Properties</link>
+    <guid>https://raymath.pages.dev/Study/Differential-Geometry/3-2.-The-De%EF%AC%81nition-of-the-Gauss-Map-and-Its-Fundamental-Properties</guid>
+    <description>이 절에서는 정칙이고 가향인 곡면 S에 방향(orientation) N이 주어졌다고 가정한다.</description>
+    <pubDate>Sat, 05 Jul 2025 08:39:27 GMT</pubDate>
+  </item><item>
+    <title>2-Appendix. A Brief Review of Continuity and Differentiability</title>
+    <link>https://raymath.pages.dev/Study/Differential-Geometry/2-Appendix.-A-Brief-Review-of-Continuity-and-Differentiability</link>
+    <guid>https://raymath.pages.dev/Study/Differential-Geometry/2-Appendix.-A-Brief-Review-of-Continuity-and-Differentiability</guid>
+    <description>\mathbb{R}^n에서의 연속성 (Continuity in \mathbb{R}^n) 열린 공과 근방 (Open Ball and Neighborhood) 점 p_0 \in \mathbb{R}^n을 중심으로 하고 반지름이 \epsilon &gt; 0인 열린 공(open ball)은 집합 B_\epsilon(p_0) = \{p \in \mathbb{R}^n; |p - p_0| &lt; \epsilon\}이다.</description>
+    <pubDate>Sat, 05 Jul 2025 08:15:52 GMT</pubDate>
+  </item><item>
+    <title>2-8. A Geometric Deﬁnition of Area</title>
+    <link>https://raymath.pages.dev/Study/Differential-Geometry/2-8.-A-Geometric-De%EF%AC%81nition-of-Area</link>
+    <guid>https://raymath.pages.dev/Study/Differential-Geometry/2-8.-A-Geometric-De%EF%AC%81nition-of-Area</guid>
+    <description>이 절의 목표는 2-5절에서 소개된 면적 공식에 대한 기하학적 정당성을 부여하는 것이다. 이는 곡면 위의 영역을 평면 영역들의 합으로 근사하고, 그 극한을 통해 면적을 정의한 뒤, 이 정의가 적분 공식과 일치함을 보이는 방식으로 이루어진다.</description>
+    <pubDate>Sat, 05 Jul 2025 08:10:31 GMT</pubDate>
+  </item><item>
+    <title>2-7. A Characterization of Compact Orientable Surfaces</title>
+    <link>https://raymath.pages.dev/Study/Differential-Geometry/2-7.-A-Characterization-of-Compact-Orientable-Surfaces</link>
+    <guid>https://raymath.pages.dev/Study/Differential-Geometry/2-7.-A-Characterization-of-Compact-Orientable-Surfaces</guid>
+    <description>정칙, 콤팩트, 가향 곡면 S가 미분가능한 함수 g에 대하여 S=g^{-1}(0)의 형태로 표현될 수 있음을 증명한다.(여기서 0은 g의 정칙값이다) 관상 근방 (Tubular Neighborhood)의 존재성 정칙 곡면 S와 점 p \in S의 근방을 매개화하는 \mathbf{x}: U \to S가 주어졌을 때, p를 포함하는 근방 W \subset \mathbf{x}(U)와 어떤 양수 \epsilon &gt; 0이 존재한다.</description>
+    <pubDate>Sat, 05 Jul 2025 07:39:42 GMT</pubDate>
+  </item><item>
+    <title>2-6. Orientation of Surfaces</title>
+    <link>https://raymath.pages.dev/Study/Differential-Geometry/2-6.-Orientation-of-Surfaces</link>
+    <guid>https://raymath.pages.dev/Study/Differential-Geometry/2-6.-Orientation-of-Surfaces</guid>
+    <description>가향 곡면(Orientable Surface) 매개화 \mathbf{x}(u,v)는 각 점에서의 접평면에 순서 기저(ordered basis) \{\mathbf{x}_u, \mathbf{x}_v\}를 부여함으로써 향을 결정한다.</description>
+    <pubDate>Sat, 05 Jul 2025 07:08:13 GMT</pubDate>
+  </item><item>
+    <title>2-5. The First Fundamental Form; Area</title>
+    <link>https://raymath.pages.dev/Study/Differential-Geometry/2-5.-The-First-Fundamental-Form;-Area</link>
+    <guid>https://raymath.pages.dev/Study/Differential-Geometry/2-5.-The-First-Fundamental-Form;-Area</guid>
+    <description>제1 기본 형식 (The First Fundamental Form) \mathbb{R}^3 \supset S의 자연스러운 내적(inner product)은 각 접평면 T_p(S)에 내적을 유도한다.</description>
+    <pubDate>Sat, 05 Jul 2025 06:15:30 GMT</pubDate>
+  </item><item>
+    <title>2-4. The Tangent Plane;The Differential of a Map</title>
+    <link>https://raymath.pages.dev/Study/Differential-Geometry/2-4.-The-Tangent-Plane;The-Differential-of-a-Map</link>
+    <guid>https://raymath.pages.dev/Study/Differential-Geometry/2-4.-The-Tangent-Plane;The-Differential-of-a-Map</guid>
+    <description>접선벡터(Tangent Vector) 정칙 곡면 S 위의 점 p에 대하여, 미분가능한 곡선 \alpha: (-\epsilon, \epsilon) \to S가 \alpha(0) = p를 만족할 때, 벡터 \alpha&#039;(0)를 점 p에서 곡면 S에 대한 접선벡터(tangent vector)라고 한다.</description>
+    <pubDate>Sat, 05 Jul 2025 05:46:17 GMT</pubDate>
+  </item><item>
+    <title>2-3. Change of Parameters; Differentiable Functions on Surface</title>
+    <link>https://raymath.pages.dev/Study/Differential-Geometry/2-3.-Change-of-Parameters;-Differentiable-Functions-on-Surface</link>
+    <guid>https://raymath.pages.dev/Study/Differential-Geometry/2-3.-Change-of-Parameters;-Differentiable-Functions-on-Surface</guid>
+    <description>곡면은 국소적인 성질로 이해된다. 즉, 곡면 S 위의 한 점 p의 성질은 해당 점을 포함하는 매개함수 \mathbf{x}(u,v)에 의해 좌표계로 설명할 수 있다.</description>
+    <pubDate>Sat, 05 Jul 2025 04:54:10 GMT</pubDate>
+  </item><item>
+    <title>2-2. Regular Surfaces; Inverse Images of Regular Value</title>
+    <link>https://raymath.pages.dev/Study/Differential-Geometry/2-2.-Regular-Surfaces;-Inverse-Images-of-Regular-Value</link>
+    <guid>https://raymath.pages.dev/Study/Differential-Geometry/2-2.-Regular-Surfaces;-Inverse-Images-of-Regular-Value</guid>
+    <description>정칙 곡면(Regular Surface) 집합 S \subseteq \mathbb{R}^3가 정칙 곡면이라는 것은, 각 점 p \in S에 대해 다음 조건을 만족하는 매개화(mapping) \mathbf{x}:U \subseteq \mathbb{R}^2 \to \mathbb{R}^3 가 존재함을 의미한다.</description>
+    <pubDate>Sat, 05 Jul 2025 04:23:18 GMT</pubDate>
+  </item><item>
+    <title>1-7. Global Properties of Plane Curves</title>
+    <link>https://raymath.pages.dev/Study/Differential-Geometry/1-7.-Global-Properties-of-Plane-Curves</link>
+    <guid>https://raymath.pages.dev/Study/Differential-Geometry/1-7.-Global-Properties-of-Plane-Curves</guid>
+    <description>기본 개념 닫힌 곡선(Closed curve) 매끄러운 매개화 곡선 \alpha : [a, b] \to \mathbb{R}^2으로서, 모든 도함수가 끝점에서 일치하는 곡선.</description>
+    <pubDate>Sat, 05 Jul 2025 03:50:53 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

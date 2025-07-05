@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en"><head><title>Notes</title><meta charset="utf-8"/><meta name="naver-site-verification" content="5e159a7268919737a48b96b31da3abdead65347b"/><meta name="google-site-verification" content="RjR4E2c1MRLgp0_TjyEVtmP48GjyYdHevuyk_1GIY2s"/><meta name="google-site-verification" content="OQW_nPCMFrMw6QhYg31bSQMGHHoLoM_lsB4IkFZ8O3M"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Ray"/><meta property="og:title" content="Notes"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Notes"/><meta name="twitter:description" content="Class 공통 수학 분할과 분배 순열과 조합 원의 접선의 방정식 이차 방정식의 판별식 이차함수의 최대, 최소 점 대칭, 선 대칭 좌표평면 위의 삼각형의 넓이 특수한 형태의 유리식의 계산 기하 삼각형의 넓이 알아두면 좋은 기하 성질 대수 무제 복소수(Complex number) 삼각 부등식(triangle inequality)과 코시 슈바르츠 부등식(Cauchy-Schwarz inequality) 선형 연산자(Linear operator) 행렬 참, 거짓 문제 미적 그래프 그리기 1 그래프 그리기 2 그래프 그리기 3 그래프 그리기..."/><meta property="og:description" content="Class 공통 수학 분할과 분배 순열과 조합 원의 접선의 방정식 이차 방정식의 판별식 이차함수의 최대, 최소 점 대칭, 선 대칭 좌표평면 위의 삼각형의 넓이 특수한 형태의 유리식의 계산 기하 삼각형의 넓이 알아두면 좋은 기하 성질 대수 무제 복소수(Complex number) 삼각 부등식(triangle inequality)과 코시 슈바르츠 부등식(Cauchy-Schwarz inequality) 선형 연산자(Linear operator) 행렬 참, 거짓 문제 미적 그래프 그리기 1 그래프 그리기 2 그래프 그리기 3 그래프 그리기..."/><meta property="og:image:alt" content="Class 공통 수학 분할과 분배 순열과 조합 원의 접선의 방정식 이차 방정식의 판별식 이차함수의 최대, 최소 점 대칭, 선 대칭 좌표평면 위의 삼각형의 넓이 특수한 형태의 유리식의 계산 기하 삼각형의 넓이 알아두면 좋은 기하 성질 대수 무제 복소수(Complex number) 삼각 부등식(triangle inequality)과 코시 슈바르츠 부등식(Cauchy-Schwarz inequality) 선형 연산자(Linear operator) 행렬 참, 거짓 문제 미적 그래프 그리기 1 그래프 그리기 2 그래프 그리기 3 그래프 그리기..."/><meta property="og:image" content="https://raymath.pages.dev/static/og-image.png"/><meta property="og:image:url" content="https://raymath.pages.dev/static/og-image.png"/><meta name="twitter:image" content="https://raymath.pages.dev/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="raymath.pages.dev"/><meta property="og:url" content="https://raymath.pages.dev/Thought-dump/Template/Notes"/><meta property="twitter:url" content="https://raymath.pages.dev/Thought-dump/Template/Notes"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Class 공통 수학 분할과 분배 순열과 조합 원의 접선의 방정식 이차 방정식의 판별식 이차함수의 최대, 최소 점 대칭, 선 대칭 좌표평면 위의 삼각형의 넓이 특수한 형태의 유리식의 계산 기하 삼각형의 넓이 알아두면 좋은 기하 성질 대수 무제 복소수(Complex number) 삼각 부등식(triangle inequality)과 코시 슈바르츠 부등식(Cauchy-Schwarz inequality) 선형 연산자(Linear operator) 행렬 참, 거짓 문제 미적 그래프 그리기 1 그래프 그리기 2 그래프 그리기 3 그래프 그리기..."/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL3JheS9Qcm9qZWN0L3F1YXJ0ei9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcGFkZGluZzogMnJlbTtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://raymath.pages.dev/index.xml"/></head><body data-slug="Thought-dump/Template/Notes"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">Ray</a></h2><div class="search"><button class="search-button"><p>Search</p><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-content" aria-label="explorer-content" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-controls="explorer-content" aria-label="explorer-content" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div class="explorer-content" aria-expanded="false"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../Thought-dump/">Thought dump</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../Thought-dump/Template/">Template</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Notes</a></div></nav><h1 class="article-title">Notes</h1><p show-comma="true" class="content-meta"><time datetime="2025-06-09T10:14:00.651Z">Jun 09, 2025</time><span>7 min read</span></p></div></div><article class="popover-hint"><h2 id="class">Class<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#class" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="공통-수학">공통 수학<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#공통-수학" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../Class/공통-수학/분할과-분배" class="internal alias" data-slug="Class/공통-수학/분할과-분배">분할과 분배</a></li>
+<li><a href="../../Class/공통-수학/순열과-조합" class="internal alias" data-slug="Class/공통-수학/순열과-조합">순열과 조합</a></li>
+<li><a href="../../Class/공통-수학/원의-접선의-방정식" class="internal alias" data-slug="Class/공통-수학/원의-접선의-방정식">원의 접선의 방정식</a></li>
+<li><a href="../../Class/공통-수학/이차-방정식의-판별식" class="internal alias" data-slug="Class/공통-수학/이차-방정식의-판별식">이차 방정식의 판별식</a></li>
+<li><a href="../../Class/공통-수학/이차함수의-최대,-최소" class="internal alias" data-slug="Class/공통-수학/이차함수의-최대,-최소">이차함수의 최대, 최소</a></li>
+<li><a href="../../Class/공통-수학/점-대칭,-선-대칭" class="internal alias" data-slug="Class/공통-수학/점-대칭,-선-대칭">점 대칭, 선 대칭</a></li>
+<li><a href="../../Class/공통-수학/좌표평면-위의-삼각형의-넓이" class="internal alias" data-slug="Class/공통-수학/좌표평면-위의-삼각형의-넓이">좌표평면 위의 삼각형의 넓이</a></li>
+<li><a href="../../Class/공통-수학/특수한-형태의-유리식의-계산" class="internal alias" data-slug="Class/공통-수학/특수한-형태의-유리식의-계산">특수한 형태의 유리식의 계산</a></li>
+</ul>
+<h3 id="기하">기하<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#기하" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../Class/기하/삼각형의-넓이" class="internal alias" data-slug="Class/기하/삼각형의-넓이">삼각형의 넓이</a></li>
+<li><a href="../../Class/기하/알아두면-좋은-기하-성질" class="internal alias" data-slug="Class/기하/알아두면-좋은-기하-성질">알아두면 좋은 기하 성질</a></li>
+</ul>
+<h3 id="대수">대수<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#대수" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../Class/대수/무제" class="internal alias" data-slug="Class/대수/무제">무제</a></li>
+<li><a href="../../Class/대수/복소수(Complex-number)" class="internal alias" data-slug="Class/대수/복소수(Complex-number)">복소수(Complex number)</a></li>
+<li><a href="../../Class/대수/삼각-부등식,-코시-슈바르츠-부등식" class="internal alias" data-slug="Class/대수/삼각-부등식,-코시-슈바르츠-부등식">삼각 부등식(triangle inequality)과 코시 슈바르츠 부등식(Cauchy-Schwarz inequality)</a></li>
+<li><a href="../../Class/대수/선형-연산(Linear-operator)" class="internal alias" data-slug="Class/대수/선형-연산(Linear-operator)">선형 연산자(Linear operator)</a></li>
+<li><a href="../../Class/대수/행렬-OX" class="internal alias" data-slug="Class/대수/행렬-OX">행렬 참, 거짓 문제</a></li>
+</ul>
+<h3 id="미적">미적<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#미적" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../Class/미적/그래프-완전정복-1---기본" class="internal alias" data-slug="Class/미적/그래프-완전정복-1---기본">그래프 그리기 1</a></li>
+<li><a href="../../Class/미적/그래프-완전정복-2---사칙연산" class="internal alias" data-slug="Class/미적/그래프-완전정복-2---사칙연산">그래프 그리기 2</a></li>
+<li><a href="../../Class/미적/그래프-완전정복-3---평행,-대칭,-주기,-확대" class="internal alias" data-slug="Class/미적/그래프-완전정복-3---평행,-대칭,-주기,-확대">그래프 그리기 3</a></li>
+<li><a href="../../Class/미적/그래프-완전정복-4---절댓값-함수,-가우스-함수" class="internal alias" data-slug="Class/미적/그래프-완전정복-4---절댓값-함수,-가우스-함수">그래프 그리기 4</a></li>
+<li><a href="../../Class/미적/그래프-완전정복-5---합성함수" class="internal alias" data-slug="Class/미적/그래프-완전정복-5---합성함수">그래프 그리기 5</a></li>
+<li><a href="../../Class/미적/그래프-완전정복-6---볼록함수" class="internal alias" data-slug="Class/미적/그래프-완전정복-6---볼록함수">그래프 그리기 6</a></li>
+<li><a href="../../Class/미적/다항함수의-넓이-공식" class="internal alias" data-slug="Class/미적/다항함수의-넓이-공식">다항 함수의 넓이 공식</a></li>
+<li><a href="../../Class/미적/등차수열" class="internal alias" data-slug="Class/미적/등차수열">등차수열(Arithmetic sequence)</a></li>
+<li><a href="../../Class/미적/로피탈" class="internal alias" data-slug="Class/미적/로피탈">로피탈의 법칙(L’Hôpital’s rule)</a></li>
+<li><a href="../../Class/미적/사인함수의-넓이" class="internal alias" data-slug="Class/미적/사인함수의-넓이">사인 함수의 넓이</a></li>
+<li><a href="../../Class/미적/삼각함수의-각-변환" class="internal alias" data-slug="Class/미적/삼각함수의-각-변환">삼각함수의 각 변환</a></li>
+<li><a href="../../Class/미적/삼차-함수" class="internal alias" data-slug="Class/미적/삼차-함수">삼차함수(Cubic function)</a></li>
+<li><a href="../../Class/미적/수열의-귀납적-정의" class="internal alias" data-slug="Class/미적/수열의-귀납적-정의">수열의 귀납적 정의(Recursive Definition of a Sequence)</a></li>
+<li><a href="../../Class/미적/연속-함수" class="internal alias" data-slug="Class/미적/연속-함수">연속 함수(Continuous)</a></li>
+<li><a href="../../Class/미적/우함수와-기함수" class="internal alias" data-slug="Class/미적/우함수와-기함수">우함수와 기함수(Even &amp; Odd function)</a></li>
+<li><a href="../../Class/미적/함수-OX" class="internal alias" data-slug="Class/미적/함수-OX">일대일 함수</a></li>
+<li><a href="../../Class/미적/테일러-급수" class="internal alias" data-slug="Class/미적/테일러-급수">테일러 급수(Taylor series)</a></li>
+<li><a href="../../Class/미적/편미분" class="internal alias" data-slug="Class/미적/편미분">편미분</a></li>
+</ul>
+<h3 id="영재">영재<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#영재" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../Class/영재/나머지-정리" class="internal alias" data-slug="Class/영재/나머지-정리">나머지 정리</a></li>
+<li><a href="../../Class/영재/소수(Prime-Numbers)" class="internal alias" data-slug="Class/영재/소수(Prime-Numbers)">소수(Prime Numbers)</a></li>
+<li><a href="../../Class/영재/수학적-귀납법" class="internal alias" data-slug="Class/영재/수학적-귀납법">수학적 귀납법</a></li>
+<li><a href="../../Class/영재/약수(divisor)와-배수(multiple)" class="internal alias" data-slug="Class/영재/약수(divisor)와-배수(multiple)">약수(divisor)와 배수(multiple)</a></li>
+<li><a href="../../Class/영재/양의-약수의-성질" class="internal alias" data-slug="Class/영재/양의-약수의-성질">양의 약수의 성질</a></li>
+<li><a href="../../Class/영재/오일러-함수와-오일러-정리" class="internal alias" data-slug="Class/영재/오일러-함수와-오일러-정리">오일러 함수와 오일러 정리</a></li>
+<li><a href="../../Class/영재/유클리드-호제법(Euclidean-Algorithm)" class="internal alias" data-slug="Class/영재/유클리드-호제법(Euclidean-Algorithm)">유클리드 호제법(Euclidean Algorithm)</a></li>
+<li><a href="../../Class/영재/정수론(Number-Theory)" class="internal alias" data-slug="Class/영재/정수론(Number-Theory)">정수론(Number Theory)</a></li>
+<li><a href="../../Class/영재/최대공약수와-최소공배수" class="internal alias" data-slug="Class/영재/최대공약수와-최소공배수">최대공약수와 최소공배수</a></li>
+<li><a href="../../Class/영재/합동식" class="internal alias" data-slug="Class/영재/합동식">합동식</a></li>
+</ul>
+<h3 id="확률과-통계">확률과 통계<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#확률과-통계" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../Class/확률과-통계/완전-순열" class="internal alias" data-slug="Class/확률과-통계/완전-순열">교란(Derangement)</a></li>
+<li><a href="../../Class/확률과-통계/여러가지-순열" class="internal alias" data-slug="Class/확률과-통계/여러가지-순열">여러가지 순열</a></li>
+<li><a href="../../Class/확률과-통계/연속-확률-변수와-정규-분포" class="internal alias" data-slug="Class/확률과-통계/연속-확률-변수와-정규-분포">연속 확률 변수와 정규 분포</a></li>
+<li><a href="../../Class/확률과-통계/이산-확률-변수와-이항분포" class="internal alias" data-slug="Class/확률과-통계/이산-확률-변수와-이항분포">이산 확률 변수와 이항분포</a></li>
+<li><a href="../../Class/확률과-통계/이항정리" class="internal alias" data-slug="Class/확률과-통계/이항정리">이항정리(Binomial theorem)</a></li>
+<li><a href="../../Class/확률과-통계/조건부-확률" class="internal alias" data-slug="Class/확률과-통계/조건부-확률">조건부 확률</a></li>
+<li><a href="../../Class/확률과-통계/통계적-추정" class="internal alias" data-slug="Class/확률과-통계/통계적-추정">통계적 추정</a></li>
+<li><a href="../../Class/확률과-통계/함수의-개수" class="internal alias" data-slug="Class/확률과-통계/함수의-개수">함수의 개수</a></li>
+<li><a href="../../Class/확률과-통계/확률" class="internal alias" data-slug="Class/확률과-통계/확률">확률</a></li>
+</ul>
+<h2 id="ray-math">Ray math<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ray-math" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="script">Script<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#script" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../Ray-math/Script/0으로-나눌-수-없다." class="internal alias" data-slug="Ray-math/Script/0으로-나눌-수-없다.">0으로 나눌 수 없다.</a></li>
+<li><a href="../../Ray-math/Script/0으로-나눌-수-있다." class="internal alias" data-slug="Ray-math/Script/0으로-나눌-수-있다.">0으로 나눌 수 있다.</a></li>
+<li><a href="../../Ray-math/Script/감정은-전염되는가" class="internal alias" data-slug="Ray-math/Script/감정은-전염되는가">감정은 전염되는가</a></li>
+<li><a href="../../Ray-math/Script/거리와-원" class="internal alias" data-slug="Ray-math/Script/거리와-원">거리와 원</a></li>
+<li><a href="../../Ray-math/Script/모든-것을-알기위한-열쇠,-독립" class="internal alias" data-slug="Ray-math/Script/모든-것을-알기위한-열쇠,-독립">모든 것을 알기위한 열쇠, 독립</a></li>
+<li><a href="../../Ray-math/Script/모든-세자리-수를-만드는-분수" class="internal alias" data-slug="Ray-math/Script/모든-세자리-수를-만드는-분수">모든 세자리 수를 만드는 분수</a></li>
+<li><a href="../../Ray-math/Script/무리수인데-왜-정수비로-표현되나요" class="internal alias" data-slug="Ray-math/Script/무리수인데-왜-정수비로-표현되나요">무리수인데 왜 정수비로 표현되나요</a></li>
+<li><a href="../../Ray-math/Script/비버가-바쁠만-했네" class="internal alias" data-slug="Ray-math/Script/비버가-바쁠만-했네">비버가 바쁠만 했네</a></li>
+<li><a href="../../Ray-math/Script/샤워할-때-왜-우리의-목소리가-더-좋게-들릴까" class="internal alias" data-slug="Ray-math/Script/샤워할-때-왜-우리의-목소리가-더-좋게-들릴까">샤워할 때 왜 우리의 목소리가 더 좋게 들릴까</a></li>
+<li><a href="../../Ray-math/Script/피타고라스-정리" class="internal alias" data-slug="Ray-math/Script/피타고라스-정리">세상을 바꾼 방정식 1 - 피타고라스 정리</a></li>
+<li><a href="../../Ray-math/Script/로그" class="internal alias" data-slug="Ray-math/Script/로그">세상을 바꾼 방정식 2 - 로그</a></li>
+<li><a href="../../Ray-math/Script/미분" class="internal alias" data-slug="Ray-math/Script/미분">세상을 바꾼 방정식 3 - 미분</a></li>
+<li><a href="../../Ray-math/Script/만유인력의-법칙" class="internal alias" data-slug="Ray-math/Script/만유인력의-법칙">세상을 바꾼 방정식 4 - 만유인력의 법칙</a></li>
+<li><a href="../../Ray-math/Script/허수-i" class="internal alias" data-slug="Ray-math/Script/허수-i">세상을 바꾼 방정식 5 -  허수 i</a></li>
+<li><a href="../../Ray-math/Script/오일러-방정식" class="internal alias" data-slug="Ray-math/Script/오일러-방정식">세상을 바꾼 방정식 6 - 오일러 방정식</a></li>
+<li><a href="../../Ray-math/Script/소수를-분모로-갖는-분수의-반복되는-특별한-성질" class="internal alias" data-slug="Ray-math/Script/소수를-분모로-갖는-분수의-반복되는-특별한-성질">소수를 분모로 갖는 분수의 반복되는 특별한 성질</a></li>
+<li><a href="../../Ray-math/Script/142857" class="internal alias" data-slug="Ray-math/Script/142857">순환수 142857</a></li>
+<li><a href="../../Ray-math/Script/슈타이너-트리" class="internal alias" data-slug="Ray-math/Script/슈타이너-트리">슈타이너 트리</a></li>
+<li><a href="../../Ray-math/Script/어느새-부터-패턴은-안멋져" class="internal alias" data-slug="Ray-math/Script/어느새-부터-패턴은-안멋져">어느새 부터 패턴은 안멋져</a></li>
+<li><a href="../../Ray-math/Script/이건-또-뭐야-...999=-1" class="internal alias" data-slug="Ray-math/Script/이건-또-뭐야-...999=-1">이건 또 뭐야 …999=-1</a></li>
+<li><a href="../../Ray-math/Script/초월수-e" class="internal alias" data-slug="Ray-math/Script/초월수-e">인류는 어떻게 e를 발견했는가?</a></li>
+<li><a href="../../Ray-math/Script/튜링-정지-문제와-괴델의-불완전성-정리" class="internal alias" data-slug="Ray-math/Script/튜링-정지-문제와-괴델의-불완전성-정리">튜링 정지 문제와 괴델의 불완전성 정리</a></li>
+<li><a href="../../Ray-math/Script/트럼프가-수학-공식을-들고온-이유" class="internal alias" data-slug="Ray-math/Script/트럼프가-수학-공식을-들고온-이유">트럼프가 수학 공식을 들고온 이유</a></li>
+<li><a href="../../Ray-math/Script/파울하버" class="internal alias" data-slug="Ray-math/Script/파울하버">파울하버(Faulhaber)의 공식</a></li>
+<li><a href="../../Ray-math/Script/파티-플래너-문제" class="internal alias" data-slug="Ray-math/Script/파티-플래너-문제">파티 플래너 문제</a></li>
+<li><a href="../../Ray-math/Script/폴리아-추측(Polya-conjecture)" class="internal alias" data-slug="Ray-math/Script/폴리아-추측(Polya-conjecture)">폴리아 추측(Pólya conjecture)</a></li>
+<li><a href="../../Ray-math/Script/함수의-연속" class="internal alias" data-slug="Ray-math/Script/함수의-연속">함수의 연속에 대하여</a></li>
+</ul>
+<h3 id="shorts">Shorts<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#shorts" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../Ray-math/Shorts/1만-더했을-뿐인데" class="internal alias" data-slug="Ray-math/Shorts/1만-더했을-뿐인데">1만 더했을 뿐인데</a></li>
+<li><a href="../../Ray-math/Shorts/3,5,7-삼각형" class="internal alias" data-slug="Ray-math/Shorts/3,5,7-삼각형">3,5,7 삼각형</a></li>
+<li><a href="../../Ray-math/Shorts/7로-나누기" class="internal alias" data-slug="Ray-math/Shorts/7로-나누기">7로 나누기</a></li>
+<li><a href="../../Ray-math/Shorts/그녀는-나보다-달에게-더-끌린다" class="internal alias" data-slug="Ray-math/Shorts/그녀는-나보다-달에게-더-끌린다">그녀는 나보다 달에게 더 끌린다</a></li>
+<li><a href="../../Ray-math/Shorts/길이-차이가-1인-삼각형" class="internal alias" data-slug="Ray-math/Shorts/길이-차이가-1인-삼각형">길이 차이가 1인 삼각형</a></li>
+<li><a href="../../Ray-math/Shorts/다른-수도-가능할까" class="internal alias" data-slug="Ray-math/Shorts/다른-수도-가능할까">다른 수도 가능할까</a></li>
+<li><a href="../../Ray-math/Shorts/마방진" class="internal alias" data-slug="Ray-math/Shorts/마방진">마방진</a></li>
+<li><a href="../../Ray-math/Shorts/무리수도-꽤나-규칙적이다" class="internal alias" data-slug="Ray-math/Shorts/무리수도-꽤나-규칙적이다">무리수도 꽤나 규칙적이다</a></li>
+<li><a href="../../Ray-math/Shorts/배수를-빠르게-판단하는-법" class="internal alias" data-slug="Ray-math/Shorts/배수를-빠르게-판단하는-법">배수를 빠르게 판단하는 법</a></li>
+<li><a href="../../Ray-math/Shorts/알았으면-끄덕여" class="internal alias" data-slug="Ray-math/Shorts/알았으면-끄덕여">알았으면 끄덕여</a></li>
+<li><a href="../../Ray-math/Shorts/요일의-순서" class="internal alias" data-slug="Ray-math/Shorts/요일의-순서">요일의 순서</a></li>
+<li><a href="../../Ray-math/Shorts/인수분해-팁" class="internal alias" data-slug="Ray-math/Shorts/인수분해-팁">인수분해 팁</a></li>
+<li><a href="../../Ray-math/Shorts/자기-자신을-만들어-내는식" class="internal alias" data-slug="Ray-math/Shorts/자기-자신을-만들어-내는식">자기 자신을 만들어 내는식</a></li>
+<li><a href="../../Ray-math/Shorts/절단-가능-소수" class="internal alias" data-slug="Ray-math/Shorts/절단-가능-소수">절단 가능 소수</a></li>
+<li><a href="../../Ray-math/Shorts/제곱한-후-나누어-더하면-자기-자신이-되는-수" class="internal alias" data-slug="Ray-math/Shorts/제곱한-후-나누어-더하면-자기-자신이-되는-수">제곱한 후 나누어 더하면 자기 자신이 되는 수</a></li>
+<li><a href="../../Ray-math/Shorts/추측을-함부로-하면-안되는-이유" class="internal alias" data-slug="Ray-math/Shorts/추측을-함부로-하면-안되는-이유">추측을 함부로 하면 안되는 이유</a></li>
+<li><a href="../../Ray-math/Shorts/투자와-수학-1" class="internal alias" data-slug="Ray-math/Shorts/투자와-수학-1">투자와 수학 1</a></li>
+<li><a href="../../Ray-math/Shorts/포획--and--재포획법" class="internal alias" data-slug="Ray-math/Shorts/포획--and--재포획법">포획 &amp; 재포획법</a></li>
+<li><a href="../../Ray-math/Shorts/A4-용지와-B4용지" class="internal alias" data-slug="Ray-math/Shorts/A4-용지와-B4용지">A4 용지와 B4용지</a></li>
+<li><a href="../../Ray-math/Shorts/emirp" class="internal" data-slug="Ray-math/Shorts/emirp">emirp</a></li>
+</ul>
+<h2 id="study">Study<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#study" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="differential-geometry">Differential Geometry<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#differential-geometry" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../Study/Differential-Geometry/1-2.-Parametrized-Curves" class="internal alias" data-slug="Study/Differential-Geometry/1-2.-Parametrized-Curves">1-2. Parametrized Curves</a></li>
+<li><a href="../../Study/Differential-Geometry/1-3.-Regular-Curves;-Arc-Length" class="internal alias" data-slug="Study/Differential-Geometry/1-3.-Regular-Curves;-Arc-Length">1-3. Regular Curves; Arc Length</a></li>
+<li><a href="../../Study/Differential-Geometry/1-4.-The-Vector-Product-in-R3" class="internal alias" data-slug="Study/Differential-Geometry/1-4.-The-Vector-Product-in-R3">1-4. The Vector Product in R3</a></li>
+<li><a href="../../Study/Differential-Geometry/1-5-The-Local-Theory-of-Curves-Parametrized-by-Arc-Length" class="internal alias" data-slug="Study/Differential-Geometry/1-5-The-Local-Theory-of-Curves-Parametrized-by-Arc-Length">1-5 The Local Theory of Curves Parametrized by Arc Length</a></li>
+<li><a href="../../Study/Differential-Geometry/1-6.-The-Local-Canonical-Form" class="internal alias" data-slug="Study/Differential-Geometry/1-6.-The-Local-Canonical-Form">1-6. The Local Canonical Form</a></li>
+<li><a href="../../Study/Differential-Geometry/1-7.-Global-Properties-of-Plane-Curves" class="internal alias" data-slug="Study/Differential-Geometry/1-7.-Global-Properties-of-Plane-Curves">1-7. Global Properties of Plane Curves</a></li>
+<li><a href="../../Study/Differential-Geometry/2-2.-Regular-Surfaces;-Inverse-Images-of-Regular-Value" class="internal alias" data-slug="Study/Differential-Geometry/2-2.-Regular-Surfaces;-Inverse-Images-of-Regular-Value">2-2. Regular Surfaces; Inverse Images of Regular Value</a></li>
+<li><a href="../../Study/Differential-Geometry/2-3.-Change-of-Parameters;-Differentiable-Functions-on-Surface" class="internal alias" data-slug="Study/Differential-Geometry/2-3.-Change-of-Parameters;-Differentiable-Functions-on-Surface">2-3. Change of Parameters; Differentiable Functions on Surface</a></li>
+<li><a href="../../Study/Differential-Geometry/2-4.-The-Tangent-Plane;The-Differential-of-a-Map" class="internal alias" data-slug="Study/Differential-Geometry/2-4.-The-Tangent-Plane;The-Differential-of-a-Map">2-4. The Tangent Plane;The Differential of a Map</a></li>
+<li><a href="../../Study/Differential-Geometry/2-5.-The-First-Fundamental-Form;-Area" class="internal alias" data-slug="Study/Differential-Geometry/2-5.-The-First-Fundamental-Form;-Area">2-5. The First Fundamental Form; Area</a></li>
+<li><a href="../../Study/Differential-Geometry/2-6.-Orientation-of-Surfaces" class="internal alias" data-slug="Study/Differential-Geometry/2-6.-Orientation-of-Surfaces">2-6. Orientation of Surfaces</a></li>
+<li><a href="../../Study/Differential-Geometry/2-7.-A-Characterization-of-Compact-Orientable-Surfaces" class="internal alias" data-slug="Study/Differential-Geometry/2-7.-A-Characterization-of-Compact-Orientable-Surfaces">2-7. A Characterization of Compact Orientable Surfaces</a></li>
+<li><a href="../../Study/Differential-Geometry/2-8.-A-Geometric-Deﬁnition-of-Area" class="internal alias" data-slug="Study/Differential-Geometry/2-8.-A-Geometric-Deﬁnition-of-Area">2-8. A Geometric Deﬁnition of Area</a></li>
+<li><a href="../../Study/Differential-Geometry/2-Appendix.-A-Brief-Review-of-Continuity-and-Differentiability" class="internal alias" data-slug="Study/Differential-Geometry/2-Appendix.-A-Brief-Review-of-Continuity-and-Differentiability">2-Appendix. A Brief Review of Continuity and Differentiability</a></li>
+<li><a href="../../Study/Differential-Geometry/3-2.-The-Deﬁnition-of-the-Gauss-Map-and-Its-Fundamental-Properties" class="internal alias" data-slug="Study/Differential-Geometry/3-2.-The-Deﬁnition-of-the-Gauss-Map-and-Its-Fundamental-Properties">3-2. The Deﬁnition of the Gauss Map and Its Fundamental Properties</a></li>
+<li><a href="../../Study/Differential-Geometry/Differential-Geometry" class="internal alias" data-slug="Study/Differential-Geometry/Differential-Geometry">Differential Geometry</a></li>
+</ul>
+<h3 id="dump">Dump<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dump" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../Study/Dump/양의-정부호(Positive-Definite,-PD)와-양의-준정부호(Positive-Semidefinite,-PSD)" class="internal alias" data-slug="Study/Dump/양의-정부호(Positive-Definite,-PD)와-양의-준정부호(Positive-Semidefinite,-PSD)">양의 정부호(Positive Definite, PD)와 양의 준정부호(Positive Semidefinite, PSD)</a></li>
+<li><a href="../../Study/Dump/유한차원에서-전단사" class="internal alias" data-slug="Study/Dump/유한차원에서-전단사">유한차원에서 전단사</a></li>
+<li><a href="../../Study/Dump/카탈란-수(Catalan-Number)란" class="internal alias" data-slug="Study/Dump/카탈란-수(Catalan-Number)란">카탈란 수(Catalan Number)란?</a></li>
+</ul>
+<h3 id="linear-algebra">Linear Algebra<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#linear-algebra" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../Study/Linear-Algebra/내적-보존,-노름-보존" class="internal alias" data-slug="Study/Linear-Algebra/내적-보존,-노름-보존">내적 보존, 노름 보존</a></li>
+<li><a href="../../Study/Linear-Algebra/동반행렬(companion-matrix)" class="internal alias" data-slug="Study/Linear-Algebra/동반행렬(companion-matrix)">동반행렬(companion matrix)</a></li>
+<li><a href="../../Study/Linear-Algebra/동차-선형-미분-방정식" class="internal alias" data-slug="Study/Linear-Algebra/동차-선형-미분-방정식">동차 선형 미분 방정식 (Homogeneous Linear Differential Equations with Constant Coefficients)</a></li>
+<li><a href="../../Study/Linear-Algebra/라그랑주-보간법(Lagrange-Interpolation)" class="internal alias" data-slug="Study/Linear-Algebra/라그랑주-보간법(Lagrange-Interpolation)">라그랑주 보간법(Lagrange Interpolation)</a></li>
+<li><a href="../../Study/Linear-Algebra/라그랑주-보간법(Lagrange-Interpolation)-1" class="internal alias" data-slug="Study/Linear-Algebra/라그랑주-보간법(Lagrange-Interpolation)-1">라그랑주 보간법(Lagrange Interpolation) 1</a></li>
+<li><a href="../../Study/Linear-Algebra/선형-방정식의-최소해(Minimal-Solution)" class="internal alias" data-slug="Study/Linear-Algebra/선형-방정식의-최소해(Minimal-Solution)">선형 방정식의 최소해(Minimal Solution)</a></li>
+<li><a href="../../Study/Linear-Algebra/소멸자" class="internal alias" data-slug="Study/Linear-Algebra/소멸자">소멸자(Annihilator)</a></li>
+<li><a href="../../Study/Linear-Algebra/스펙트럼-정리-활용" class="internal alias" data-slug="Study/Linear-Algebra/스펙트럼-정리-활용">스펙트럼 정리 활용</a></li>
+<li><a href="../../Study/Linear-Algebra/심프슨-공식(Simpson's-rule)" class="internal alias" data-slug="Study/Linear-Algebra/심프슨-공식(Simpson's-rule)">심프슨 공식(Simpson’s rule)</a></li>
+<li><a href="../../Study/Linear-Algebra/쌍대공간" class="internal alias" data-slug="Study/Linear-Algebra/쌍대공간">쌍대공간</a></li>
+<li><a href="../../Study/Linear-Algebra/오른손-좌표계와-향(Orientation)" class="internal alias" data-slug="Study/Linear-Algebra/오른손-좌표계와-향(Orientation)">오른손 좌표계와 향(Orientation)</a></li>
+<li><a href="../../Study/Linear-Algebra/원뿔곡선과-주축정리" class="internal alias" data-slug="Study/Linear-Algebra/원뿔곡선과-주축정리">원뿔곡선과 주축정리</a></li>
+<li><a href="../../Study/Linear-Algebra/유니타리-동치(unitary-equivalence)-판별법" class="internal alias" data-slug="Study/Linear-Algebra/유니타리-동치(unitary-equivalence)-판별법">유니타리 동치(unitary equivalence) 판별법</a></li>
+<li><a href="../../Study/Linear-Algebra/유니타리-행렬(Unitary-Matrix)" class="internal alias" data-slug="Study/Linear-Algebra/유니타리-행렬(Unitary-Matrix)">유니타리 행렬(Unitary Matrix)</a></li>
+<li><a href="../../Study/Linear-Algebra/정규연산자" class="internal alias" data-slug="Study/Linear-Algebra/정규연산자">정규연산자</a></li>
+<li><a href="../../Study/Linear-Algebra/조르당-표준형-구하기" class="internal alias" data-slug="Study/Linear-Algebra/조르당-표준형-구하기">조르당 표준형 구하기</a></li>
+<li><a href="../../Study/Linear-Algebra/주성분-분석-(Principal-Component-Analysis)" class="internal alias" data-slug="Study/Linear-Algebra/주성분-분석-(Principal-Component-Analysis)">주성분 분석 (Principal Component Analysis)</a></li>
+<li><a href="../../Study/Linear-Algebra/최소-다항식" class="internal alias" data-slug="Study/Linear-Algebra/최소-다항식">최소 다항식(Minimal Polynomial)</a></li>
+<li><a href="../../Study/Linear-Algebra/최소-제곱-근사(Least-Squares-Approximation)" class="internal alias" data-slug="Study/Linear-Algebra/최소-제곱-근사(Least-Squares-Approximation)">최소제곱법(Least Squares Approximation)</a></li>
+<li><a href="../../Study/Linear-Algebra/케일리-해밀턴-정리(Cayley-Hamilton-theorem)" class="internal alias" data-slug="Study/Linear-Algebra/케일리-해밀턴-정리(Cayley-Hamilton-theorem)">케일리 해밀턴 정리(Cayley-Hamilton theorem)</a></li>
+<li><a href="../../Study/Linear-Algebra/켤레-전치(Conjugate-Transpose)행렬" class="internal alias" data-slug="Study/Linear-Algebra/켤레-전치(Conjugate-Transpose)행렬">켤레 전치(Conjugate Transpose, Hermitian Transpose) 행렬</a></li>
+<li><a href="../../Study/Linear-Algebra/행렬로-정의하는-대칭과-사영" class="internal alias" data-slug="Study/Linear-Algebra/행렬로-정의하는-대칭과-사영">행렬로 정의하는 대칭과 사영</a></li>
+<li><a href="../../Study/Linear-Algebra/행렬의-곱" class="internal alias" data-slug="Study/Linear-Algebra/행렬의-곱">행렬의 곱?</a></li>
+<li><a href="../../Study/Linear-Algebra/행렬-곱의-정의" class="internal alias" data-slug="Study/Linear-Algebra/행렬-곱의-정의">행렬의 곱은 왜 이렇게 이상하게 정의되어있을까?</a></li>
+<li><a href="../../Study/Linear-Algebra/행렬이-가환(Commutativity)이기-위한-충분조건" class="internal alias" data-slug="Study/Linear-Algebra/행렬이-가환(Commutativity)이기-위한-충분조건">행렬이 가환(Commutativity)이기 위한 충분조건</a></li>
+<li><a href="../../Study/Linear-Algebra/행렬곱의-응용" class="internal alias" data-slug="Study/Linear-Algebra/행렬곱의-응용">Leslie 행렬</a></li>
+<li><a href="../../Study/Linear-Algebra/행렬곱의-응용-1" class="internal alias" data-slug="Study/Linear-Algebra/행렬곱의-응용-1">Online Linear Algebra Applications</a></li>
+<li><a href="../../Study/Linear-Algebra/y=mx에-대한-대칭과-사영" class="internal alias" data-slug="Study/Linear-Algebra/y=mx에-대한-대칭과-사영">y=mx에 대한 대칭과 사영</a></li>
+</ul>
+<h3 id="topology">Topology<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#topology" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../Study/Topology/국소-유한(locally-finite)" class="internal alias" data-slug="Study/Topology/국소-유한(locally-finite)">국소 유한(locally finite)</a></li>
+<li><a href="../../Study/Topology/국소연결-(locally-connected)" class="internal alias" data-slug="Study/Topology/국소연결-(locally-connected)">국소연결 (locally connected)</a></li>
+<li><a href="../../Study/Topology/근방(Neighborhood)" class="internal alias" data-slug="Study/Topology/근방(Neighborhood)">근방(Neighborhood)</a></li>
+<li><a href="../../Study/Topology/나가타-스미르노프-거리화-정리" class="internal alias" data-slug="Study/Topology/나가타-스미르노프-거리화-정리">나가타-스미르노프 거리화 정리(Nagata-Smirnov metrization theorem)</a></li>
+<li><a href="../../Study/Topology/분리-공리-(Separation-Axioms)" class="internal alias" data-slug="Study/Topology/분리-공리-(Separation-Axioms)">분리 공리 (Separation Axioms)</a></li>
+<li><a href="../../Study/Topology/분리공리-(Seperation-Axiom)" class="internal alias" data-slug="Study/Topology/분리공리-(Seperation-Axiom)">분리공리 (Seperation Axiom)</a></li>
+<li><a href="../../Study/Topology/순서-정리,-정렬-정리" class="internal alias" data-slug="Study/Topology/순서-정리,-정렬-정리">순서 정리, 정렬 정리</a></li>
+<li><a href="../../Study/Topology/연걸성-(Connected)" class="internal alias" data-slug="Study/Topology/연걸성-(Connected)">연걸성 (Connected)</a></li>
+<li><a href="../../Study/Topology/위상수학자의-사인곡선" class="internal alias" data-slug="Study/Topology/위상수학자의-사인곡선">위상수학자의 사인곡선</a></li>
+<li><a href="../../Study/Topology/유한-교집합-성질-(Finite-Intersection-Property,-FIP)" class="internal alias" data-slug="Study/Topology/유한-교집합-성질-(Finite-Intersection-Property,-FIP)">유한 교집합 성질 (Finite Intersection Property, FIP)</a></li>
+<li><a href="../../Study/Topology/차원론" class="internal alias" data-slug="Study/Topology/차원론">차원론(Dimension Theory)</a></li>
+<li><a href="../../Study/Topology/파라컴팩트" class="internal alias" data-slug="Study/Topology/파라컴팩트">파라컴팩트(paracompact)</a></li>
+<li><a href="../../Study/Topology/포화-집합(Saturated-Set)" class="internal alias" data-slug="Study/Topology/포화-집합(Saturated-Set)">포화 집합(Saturated Set)</a></li>
+<li><a href="../../Study/Topology/필터-(FILTERS)" class="internal alias" data-slug="Study/Topology/필터-(FILTERS)">필터 (FILTERS)</a></li>
+<li><a href="../../Study/Topology/Arzela-Ascoil-Theorem" class="internal alias" data-slug="Study/Topology/Arzela-Ascoil-Theorem">Arzela-Ascoil Theorem</a></li>
+<li><a href="../../Study/Topology/Baire-공간" class="internal alias" data-slug="Study/Topology/Baire-공간">Baire 공간(Baire Spaces)</a></li>
+<li><a href="../../Study/Topology/limit-point-compactness" class="internal alias" data-slug="Study/Topology/limit-point-compactness">limit point compactness</a></li>
+<li><a href="../../Study/Topology/locally-compact" class="internal alias" data-slug="Study/Topology/locally-compact">locally compact</a></li>
+<li><a href="../../Study/Topology/The-Urysohn-Lemma" class="internal alias" data-slug="Study/Topology/The-Urysohn-Lemma">The Urysohn Lemma</a></li>
+<li><a href="../../Study/Topology/Topology-Knowledge-Graph" class="internal alias" data-slug="Study/Topology/Topology-Knowledge-Graph">Topology Knowledge Graph</a></li>
+</ul>
+<h2 id="thought-dump">Thought dump<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#thought-dump" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="template">Template<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#template" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><a href="../../Thought-dump/Template/Notes" class="internal" data-slug="Thought-dump/Template/Notes">Notes</a></li>
+<li><a href="../../Thought-dump/Template/Templater---Notes" class="internal alias" data-slug="Thought-dump/Template/Templater---Notes">Templater - Notes</a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph desktop-only"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-content" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul class="toc-content overflow" id="list-1"><li class="depth-0"><a href="#class" data-for="class">Class</a></li><li class="depth-1"><a href="#공통-수학" data-for="공통-수학">공통 수학</a></li><li class="depth-1"><a href="#기하" data-for="기하">기하</a></li><li class="depth-1"><a href="#대수" data-for="대수">대수</a></li><li class="depth-1"><a href="#미적" data-for="미적">미적</a></li><li class="depth-1"><a href="#영재" data-for="영재">영재</a></li><li class="depth-1"><a href="#확률과-통계" data-for="확률과-통계">확률과 통계</a></li><li class="depth-0"><a href="#ray-math" data-for="ray-math">Ray math</a></li><li class="depth-1"><a href="#script" data-for="script">Script</a></li><li class="depth-1"><a href="#shorts" data-for="shorts">Shorts</a></li><li class="depth-0"><a href="#study" data-for="study">Study</a></li><li class="depth-1"><a href="#differential-geometry" data-for="differential-geometry">Differential Geometry</a></li><li class="depth-1"><a href="#dump" data-for="dump">Dump</a></li><li class="depth-1"><a href="#linear-algebra" data-for="linear-algebra">Linear Algebra</a></li><li class="depth-1"><a href="#topology" data-for="topology">Topology</a></li><li class="depth-0"><a href="#thought-dump" data-for="thought-dump">Thought dump</a></li><li class="depth-1"><a href="#template" data-for="template">Template</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../../" class="internal">What is cooler than magic?</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.1</a> © 2025</p><ul><li><a href="https://www.youtube.com/@Ray수학">Youtube</a></li></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../../postscript.js" type="module"></script></html>
